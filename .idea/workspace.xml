@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I used .log() method to get log specification.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I renamed the build.gradle file by reducing .kts extension.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684833080029</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="I renamed the build.gradle file by reducing .kts extension.">
+      <created>1684848317933</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684848317933</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +117,7 @@
     <MESSAGE value="I modified the code." />
     <MESSAGE value="I created main method and object." />
     <MESSAGE value="I used .log() method to get log specification." />
-    <option name="LAST_COMMIT_MESSAGE" value="I used .log() method to get log specification." />
+    <MESSAGE value="I renamed the build.gradle file by reducing .kts extension." />
+    <option name="LAST_COMMIT_MESSAGE" value="I renamed the build.gradle file by reducing .kts extension." />
   </component>
 </project>
