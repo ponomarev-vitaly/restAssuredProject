@@ -5,7 +5,9 @@ public class RestAssuredRunner {
         RestAssured.given() // Create object.
                 .log().all()
                 .baseUri("https://api.trello.com")
-                .get();
-
+                .get()
+                .prettyPeek()
+                .then()
+                .statusCode(200);
     }
 }
