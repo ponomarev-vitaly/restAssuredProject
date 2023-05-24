@@ -1,7 +1,7 @@
 import io.restassured.RestAssured;
 
-public class RestAssuredRunner {
-    public static void main(String[] args) { // Create main method.
+public class TrelloTest {
+    public void checkTrelloApi() { // Create a method.
         RestAssured.given() // Create object.
                 .log().all()
                 .baseUri("https://api.trello.com")
