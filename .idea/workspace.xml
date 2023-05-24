@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code to print the response into the console.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I deleted RestAssuredRunner class and created TrelloTest java class instead.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrelloTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684873833546</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="I added the code with the dependencies for the junit jupiter.">
+      <created>1684960201381</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684960201381</updated>
+    </task>
+    <task id="LOCAL-00010" summary="I deleted RestAssuredRunner class and created TrelloTest java class instead.">
+      <created>1684960455812</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684960455812</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +173,8 @@
     <MESSAGE value="I renamed the build.gradle file by reducing .kts extension." />
     <MESSAGE value="I checked this project for working correctly with others web-resources." />
     <MESSAGE value="I modified the code to print the response into the console." />
-    <option name="LAST_COMMIT_MESSAGE" value="I modified the code to print the response into the console." />
+    <MESSAGE value="I added the code with the dependencies for the junit jupiter." />
+    <MESSAGE value="I deleted RestAssuredRunner class and created TrelloTest java class instead." />
+    <option name="LAST_COMMIT_MESSAGE" value="I deleted RestAssuredRunner class and created TrelloTest java class instead." />
   </component>
 </project>
