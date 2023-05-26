@@ -44,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GetCardsTest">
+  <component name="RunManager" selected="Gradle.GetCardsTest.checkGetCards">
     <configuration name="GetBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -141,7 +141,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GetCardsTest.checkGetCards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -154,7 +154,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;TrelloTest&quot;" />
+            <option value="&quot;GetCardsTest.checkGetCards&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GetCardsTest.checkGetCards" />
         <item itemvalue="Gradle.GetCardsTest" />
         <item itemvalue="Gradle.GetBoardsTest" />
         <item itemvalue="Gradle.GetBoardsTest.checkGetBoard" />
         <item itemvalue="Gradle.GetBoardTest" />
-        <item itemvalue="Gradle.TrelloTest" />
       </list>
     </recent_temporary>
   </component>
