@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I fixed the issues and run the test successfully.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/GetCardsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +286,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685049540995</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="I renamed the TrelloTest java class into GetBoardsTest. I added .queryParams() and .pathParam() methods in it. The test passed successfully.">
+      <created>1685117109767</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685117109767</updated>
+    </task>
+    <task id="LOCAL-00016" summary="I added new Test method to get a specific board.">
+      <created>1685118218984</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685118218984</updated>
+    </task>
+    <task id="LOCAL-00017" summary="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully.">
+      <created>1685119563351</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685119563351</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -302,6 +325,9 @@
     <MESSAGE value="I added an import junit.jupiter.api.Test." />
     <MESSAGE value="I modified the code, but still have to fix the code." />
     <MESSAGE value="I fixed the issues and ran the test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I fixed the issues and ran the test successfully." />
+    <MESSAGE value="I renamed the TrelloTest java class into GetBoardsTest. I added .queryParams() and .pathParam() methods in it. The test passed successfully." />
+    <MESSAGE value="I added new Test method to get a specific board." />
+    <MESSAGE value="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully." />
   </component>
 </project>

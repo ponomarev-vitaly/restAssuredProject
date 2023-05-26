@@ -11,6 +11,14 @@ public class GetBoardsTest {
     public static void setBaseUrl(){
         RestAssured.baseURI = "https://api.trello.com";
     }
+
+    private static RequestSpecification requestWithAuth() {
+        return RestAssured.given() // Create object.
+                .queryParams(Map.of(
+                        "key", "36a241085b4ad3d2267dbd22fc544c5d",
+                        "token", "ATTAefa2c1bf12159579a4153dc7d77b4ca9055612b58ba8c673c1b0a04d6ad834c3EB4CCA0D"
+                ));
+    }
     @Test
     public void checkGetBoards() { // Create a method.
         requestWithAuth()
@@ -29,13 +37,5 @@ public class GetBoardsTest {
                 .then()
                 .statusCode(200)
                 .body("name", Matchers.equalTo("New Board"));
-    }
-
-    private static RequestSpecification requestWithAuth() {
-        return RestAssured.given() // Create object.
-                .queryParams(Map.of(
-                        "key", "36a241085b4ad3d2267dbd22fc544c5d",
-                        "token", "ATTAefa2c1bf12159579a4153dc7d77b4ca9055612b58ba8c673c1b0a04d6ad834c3EB4CCA0D"
-                ));
     }
 }
