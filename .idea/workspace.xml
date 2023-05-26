@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetCardsTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I refactored the code and the test runs successfully.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetCardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCardsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GetBoardsTest">
+  <component name="RunManager" selected="Gradle.GetCardsTest">
     <configuration name="GetBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -121,6 +121,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="GetCardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GetCardsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="TrelloTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -145,37 +169,13 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloTest.checkTrelloApi" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TrelloTest.checkTrelloApi&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GetCardsTest" />
         <item itemvalue="Gradle.GetBoardsTest" />
         <item itemvalue="Gradle.GetBoardsTest.checkGetBoard" />
         <item itemvalue="Gradle.GetBoardTest" />
         <item itemvalue="Gradle.TrelloTest" />
-        <item itemvalue="Gradle.TrelloTest.checkTrelloApi" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685119563351</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="I refactored the code and the test runs successfully.">
+      <created>1685123729650</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685123729650</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -328,6 +335,7 @@
     <MESSAGE value="I renamed the TrelloTest java class into GetBoardsTest. I added .queryParams() and .pathParam() methods in it. The test passed successfully." />
     <MESSAGE value="I added new Test method to get a specific board." />
     <MESSAGE value="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully." />
+    <MESSAGE value="I refactored the code and the test runs successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I refactored the code and the test runs successfully." />
   </component>
 </project>
