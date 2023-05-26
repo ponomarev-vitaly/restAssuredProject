@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully." />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -317,14 +317,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685125403933</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="I modified the code.">
+      <created>1685125670883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685125670883</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="This is the first commit." />
     <MESSAGE value="I added FirstClass.java" />
-    <MESSAGE value="I modified the code." />
     <MESSAGE value="I created main method and object." />
     <MESSAGE value="I used .log() method to get log specification." />
     <MESSAGE value="I renamed the build.gradle file by reducing .kts extension." />
@@ -340,6 +346,7 @@
     <MESSAGE value="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully." />
     <MESSAGE value="I refactored the code and the test runs successfully." />
     <MESSAGE value="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully." />
+    <MESSAGE value="I modified the code." />
+    <option name="LAST_COMMIT_MESSAGE" value="I modified the code." />
   </component>
 </project>
