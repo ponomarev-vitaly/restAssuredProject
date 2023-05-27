@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added .queryParam() method and checked the test. The test runs successfully.">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/get_boards.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added .body() method for the JSON validation.">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/get_board.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +360,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685184487378</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="I added get_boards.json file with the JSON schema in it.">
+      <created>1685187674756</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685187674756</updated>
+    </task>
+    <task id="LOCAL-00027" summary="I added .body() method for the JSON validation.">
+      <created>1685187799289</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685187799289</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -387,6 +401,8 @@
     <MESSAGE value="I added .body() method to check whether the name of the card equals to the operand's name. Test runs OK." />
     <MESSAGE value="I added new dependency JSON schema validator in the build.gradle file." />
     <MESSAGE value="I added .queryParam() method and checked the test. The test runs successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added .queryParam() method and checked the test. The test runs successfully." />
+    <MESSAGE value="I added get_boards.json file with the JSON schema in it." />
+    <MESSAGE value="I added .body() method for the JSON validation." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added .body() method for the JSON validation." />
   </component>
 </project>

@@ -40,6 +40,7 @@ public class GetBoardsTest {
                 .get("/1/boards/{id}")
                 .then()
                 .statusCode(200)
-                .body("name", Matchers.equalTo("New Board"));
+                .body("name", Matchers.equalTo("New Board"))
+                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("schemas/get_board.json"));
     }
 }
