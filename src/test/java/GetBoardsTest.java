@@ -1,4 +1,5 @@
 import io.restassured.RestAssured;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.specification.RequestSpecification;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeAll;
@@ -26,7 +27,8 @@ public class GetBoardsTest {
                 .pathParam("member", "vitalyponomarev3")
                 .get("/1/members/{member}/boards")
                 .then()
-                .statusCode(200);
+                .statusCode(200)
+                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("schemas/get_boards.json"));
     }
 
 
