@@ -22,6 +22,7 @@ public class GetBoardsTest {
     @Test
     public void checkGetBoards() { // Create a method.
         requestWithAuth()
+                .queryParam("fields", "id,name")
                 .pathParam("member", "vitalyponomarev3")
                 .get("/1/members/{member}/boards")
                 .then()
@@ -32,6 +33,7 @@ public class GetBoardsTest {
     @Test
     public void checkGetBoard(){
         requestWithAuth()
+                .queryParam("fields", "id,name")
                 .pathParam("id", "646746aecb24dbfdcd185380")
                 .get("/1/boards/{id}")
                 .then()
