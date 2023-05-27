@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code." />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="No changes were made, checked the test, test runs OK.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GetCardsTest.checkGetCards">
+  <component name="RunManager" selected="Gradle.GetCardsTest">
     <configuration name="GetBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -167,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GetCardsTest.checkGetCards" />
         <item itemvalue="Gradle.GetCardsTest" />
+        <item itemvalue="Gradle.GetCardsTest.checkGetCards" />
         <item itemvalue="Gradle.GetBoardsTest" />
         <item itemvalue="Gradle.GetBoardsTest.checkGetBoard" />
         <item itemvalue="Gradle.GetBoardTest" />
@@ -324,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685125670883</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="No changes were made, checked the test, test runs OK.">
+      <created>1685136074794</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685136074794</updated>
+    </task>
+    <task id="LOCAL-00022" summary="No changes were made, checked the test, test runs OK.">
+      <created>1685136326559</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685136326559</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -347,6 +363,7 @@
     <MESSAGE value="I refactored the code and the test runs successfully." />
     <MESSAGE value="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully." />
     <MESSAGE value="I modified the code." />
-    <option name="LAST_COMMIT_MESSAGE" value="I modified the code." />
+    <MESSAGE value="No changes were made, checked the test, test runs OK." />
+    <option name="LAST_COMMIT_MESSAGE" value="No changes were made, checked the test, test runs OK." />
   </component>
 </project>

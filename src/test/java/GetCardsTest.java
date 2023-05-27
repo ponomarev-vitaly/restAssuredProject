@@ -1,4 +1,5 @@
 import io.restassured.RestAssured;
+import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -25,6 +26,7 @@ public class GetCardsTest {
                 .pathParam("card_id", "646748eaef222a0de8dfb52c")
                 .get("/1/cards/{card_id}")
                 .then()
-                .statusCode(200);
+                .statusCode(200)
+                .body("name", Matchers.equalTo("#test card name updated"));
     }
 }
