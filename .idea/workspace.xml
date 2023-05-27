@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="No changes were made, checked the test, test runs OK.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added .body() method to check whether the name of the card equals to the operand's name. Test runs OK.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685136326559</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="I added .body() method to check whether the name of the card equals to the operand's name. Test runs OK.">
+      <created>1685183306449</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685183306450</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -364,6 +372,7 @@
     <MESSAGE value="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully." />
     <MESSAGE value="I modified the code." />
     <MESSAGE value="No changes were made, checked the test, test runs OK." />
-    <option name="LAST_COMMIT_MESSAGE" value="No changes were made, checked the test, test runs OK." />
+    <MESSAGE value="I added .body() method to check whether the name of the card equals to the operand's name. Test runs OK." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added .body() method to check whether the name of the card equals to the operand's name. Test runs OK." />
   </component>
 </project>
