@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added .body() method for the JSON validation.">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/get_board.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created Json schema validation for the board. I added the code in the get_board.json. I run the tests successfully.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685187799289</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="I created Json schema validation for the board. I added the code in the get_board.json. I run the tests successfully.">
+      <created>1685188322033</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685188322033</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -403,6 +409,7 @@
     <MESSAGE value="I added .queryParam() method and checked the test. The test runs successfully." />
     <MESSAGE value="I added get_boards.json file with the JSON schema in it." />
     <MESSAGE value="I added .body() method for the JSON validation." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added .body() method for the JSON validation." />
+    <MESSAGE value="I created Json schema validation for the board. I added the code in the get_board.json. I run the tests successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created Json schema validation for the board. I added the code in the get_board.json. I run the tests successfully." />
   </component>
 </project>
