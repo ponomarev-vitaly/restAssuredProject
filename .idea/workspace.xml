@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="These 2 methods checkGetCardsValidation() and checkGetCardValidation() were created for the JSON schema validation only.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added new Java class GetBoardsValidationTest and checkGetBoardsWIthInvalidId() method to check the situation when the user enters invalid id.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,12 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685612909878</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="I added new Java class GetBoardsValidationTest and checkGetBoardsWIthInvalidId() method to check the situation when the user enters invalid id.">
+      <created>1685654042943</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1685654042943</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I renamed the build.gradle file by reducing .kts extension." />
     <MESSAGE value="I checked this project for working correctly with others web-resources." />
     <MESSAGE value="I modified the code to print the response into the console." />
     <MESSAGE value="I added the code with the dependencies for the junit jupiter." />
@@ -444,6 +449,7 @@
     <MESSAGE value="I checked the code and run the test successfully." />
     <MESSAGE value="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed." />
     <MESSAGE value="These 2 methods checkGetCardsValidation() and checkGetCardValidation() were created for the JSON schema validation only." />
-    <option name="LAST_COMMIT_MESSAGE" value="These 2 methods checkGetCardsValidation() and checkGetCardValidation() were created for the JSON schema validation only." />
+    <MESSAGE value="I added new Java class GetBoardsValidationTest and checkGetBoardsWIthInvalidId() method to check the situation when the user enters invalid id." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added new Java class GetBoardsValidationTest and checkGetBoardsWIthInvalidId() method to check the situation when the user enters invalid id." />
   </component>
 </project>

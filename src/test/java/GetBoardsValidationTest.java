@@ -35,6 +35,17 @@ public class GetBoardsValidationTest {
     }
 
     @Test
+    public void checkGetBoardsWIthInvalidAuth() { // This is the test for the situation when the user tries to access a board without access key and token.
+        Response response = RestAssured.given()
+                .pathParam("id", "646746aecb24dbfdcd185380")
+                .get("/1/boards/{id}");
+        response
+                .then()
+                .statusCode(401);
+        Assertions.assertEquals("unauthorized permission respected", response.body().asString());
+    }
+
+    @Test
     public void checkGetBoards() { // Create a method.
         requestWithAuth()
                 .queryParam("fields", "id,name")
