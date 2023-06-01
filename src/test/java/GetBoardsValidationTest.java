@@ -22,7 +22,7 @@ public class GetBoardsValidationTest {
     }
 
     @Test
-    public void checkGetBoardsWIthInvalidId(){ // This is the test to check if the user sends invalid id.
+    public void checkGetBoardWIthInvalidId(){ // This is the test to check if the user sends invalid id.
         Response response = requestWithAuth()
                 .pathParam("id", "invalid")
                 .get("/1/boards/{id}");
@@ -33,14 +33,14 @@ public class GetBoardsValidationTest {
     }
 
     @Test
-    public void checkGetBoardsWIthInvalidAuth() { // This is the test for the situation when the user tries to access a board without access key and token.
+    public void checkGetBoardWIthInvalidAuth() { // This is the test for the situation when the user tries to access a board without access key and token.
         Response response = RestAssured.given()
                 .pathParam("id", "646746aecb24dbfdcd185380")
                 .get("/1/boards/{id}");
         response
                 .then()
                 .statusCode(401);
-        Assertions.assertEquals("unauthorized permission respected", response.body().asString());
+        Assertions.assertEquals("unauthorized permission requested", response.body().asString());
     }
 
     @Test
@@ -56,6 +56,6 @@ public class GetBoardsValidationTest {
         response
                 .then()
                 .statusCode(401);
-        Assertions.assertEquals("unauthorized permission respected", response.body().asString());
+        Assertions.assertEquals("invalid token", response.body().asString());
     }
 }
