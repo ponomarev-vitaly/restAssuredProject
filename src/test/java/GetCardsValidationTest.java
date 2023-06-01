@@ -53,7 +53,7 @@ public class GetCardsValidationTest {
         Assertions.assertEquals("invalid token", response.body().asString());
     }
 
-    public static RequestSpecification requestWithAuth() {
+    private RequestSpecification requestWithAuth() {
         return RestAssured.given() // Create object.
                 .queryParams(Map.of(
                         "key", "36a241085b4ad3d2267dbd22fc544c5d",
