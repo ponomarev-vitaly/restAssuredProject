@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I checked the code and run the test successfully.">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/get_card.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schemas/get_cards.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetCardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCardsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -397,12 +392,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685394702802</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed.">
+      <created>1685612827357</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685612827357</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I created main method and object." />
     <MESSAGE value="I used .log() method to get log specification." />
     <MESSAGE value="I renamed the build.gradle file by reducing .kts extension." />
     <MESSAGE value="I checked this project for working correctly with others web-resources." />
@@ -427,6 +428,7 @@
     <MESSAGE value="I created Json schema validation for the board. I added the code in the get_board.json. I run the tests successfully." />
     <MESSAGE value="No changes were made." />
     <MESSAGE value="I checked the code and run the test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I checked the code and run the test successfully." />
+    <MESSAGE value="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed." />
   </component>
 </project>
