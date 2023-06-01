@@ -1,8 +1,6 @@
 import io.restassured.RestAssured;
-import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -24,7 +22,7 @@ public class GetBoardsValidationTest {
     }
 
     @Test
-    public void checkGetBoardsWIthInvalidId(){ // This is test to check if the user sends invalid id.
+    public void checkGetBoardsWIthInvalidId(){ // This is the test to check if the user sends invalid id.
         Response response = requestWithAuth()
                 .pathParam("id", "invalid")
                 .get("/1/boards/{id}");
@@ -46,26 +44,18 @@ public class GetBoardsValidationTest {
     }
 
     @Test
-    public void checkGetBoards() { // Create a method.
-        requestWithAuth()
-                .queryParam("fields", "id,name")
-                .pathParam("member", "vitalyponomarev3")
-                .get("/1/members/{member}/boards")
-                .then()
-                .statusCode(200)
-                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("schemas/get_boards.json"));
-    }
-
-
-    @Test
-    public void checkGetBoard(){
-        requestWithAuth()
-                .queryParam("fields", "id,name")
+    public void checkGetBoardWithAnotherUserCredentials(){
+        // This is the test for the situation when the user uses the key and token from the another user.
+        Response response = RestAssured.given()
+                .queryParams(Map.of(
+                        "key", "8b32218e6887516d17c84253faf967b6",
+                        "token", "492343b8106e7df3ebb7f01e219cbf32827c852a5f9e2b8f9ca296b1cc604955"
+                ))
                 .pathParam("id", "646746aecb24dbfdcd185380")
-                .get("/1/boards/{id}")
+                .get("/1/boards/{id}");
+        response
                 .then()
-                .statusCode(200)
-                .body("name", Matchers.equalTo("New Board"))
-                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("schemas/get_board.json"));
+                .statusCode(401);
+        Assertions.assertEquals("unauthorized permission respected", response.body().asString());
     }
 }
