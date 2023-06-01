@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added three methods checkGetCardWIthInvalidId(), checkGetCardWIthInvalidAuth(), checkGetCardWithAnotherUserCredentials() and requestWithAuth(). I ran the test, all worked well.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I changed modifiers in the requestWithAuth() methods from public to private.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetCardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCardsValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GetCardsValidationTest">
+  <component name="RunManager" selected="Gradle.GetBoardsValidationTest">
     <configuration name="GetBoardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -175,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GetCardsValidationTest" />
         <item itemvalue="Gradle.GetBoardsValidationTest" />
+        <item itemvalue="Gradle.GetCardsValidationTest" />
         <item itemvalue="Gradle.GetBoardsTest" />
         <item itemvalue="Gradle.GetBoardsValidationTest.checkGetBoardsWIthInvalidId" />
         <item itemvalue="Gradle.GetBoardsValidationTest.checkGetBoardsWIthInvalidAuth" />
@@ -458,12 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685658067400</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="I changed modifiers in the requestWithAuth() methods from public to private.">
+      <created>1685658351995</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1685658351995</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I modified the code, but still have to fix the code." />
     <MESSAGE value="I fixed the issues and ran the test successfully." />
     <MESSAGE value="I renamed the TrelloTest java class into GetBoardsTest. I added .queryParams() and .pathParam() methods in it. The test passed successfully." />
     <MESSAGE value="I added new Test method to get a specific board." />
@@ -488,6 +493,7 @@
     <MESSAGE value="I modified the code, all is working correctly." />
     <MESSAGE value="I added new Java class GetCardsValidationTest to validate tests for GET card(s) methods." />
     <MESSAGE value="I added three methods checkGetCardWIthInvalidId(), checkGetCardWIthInvalidAuth(), checkGetCardWithAnotherUserCredentials() and requestWithAuth(). I ran the test, all worked well." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added three methods checkGetCardWIthInvalidId(), checkGetCardWIthInvalidAuth(), checkGetCardWithAnotherUserCredentials() and requestWithAuth(). I ran the test, all worked well." />
+    <MESSAGE value="I changed modifiers in the requestWithAuth() methods from public to private." />
+    <option name="LAST_COMMIT_MESSAGE" value="I changed modifiers in the requestWithAuth() methods from public to private." />
   </component>
 </project>
