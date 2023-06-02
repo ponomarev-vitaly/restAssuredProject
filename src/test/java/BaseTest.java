@@ -10,7 +10,7 @@ public class BaseTest {
     public static void setBaseUrl(){
         RestAssured.baseURI = "https://api.trello.com";
     }
-    protected static RequestSpecification requestWithAuth() {
+    protected RequestSpecification requestWithAuth() {
         return requestWithoutAuth() // Create object.
                 .queryParams(Map.of(
                         "key", "36a241085b4ad3d2267dbd22fc544c5d",
@@ -18,7 +18,7 @@ public class BaseTest {
                 ));
     }
 
-    protected static RequestSpecification requestWithoutAuth() {
+    protected RequestSpecification requestWithoutAuth() {
         return RestAssured.given();
     }
 }

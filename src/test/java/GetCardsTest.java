@@ -1,20 +1,12 @@
-import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.hamcrest.Matchers;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-public class GetCardsTest {
-    @BeforeAll
-    public static void setBaseUrl(){
-        RestAssured.baseURI = "https://api.trello.com";
-    }
-
-    GetBoardsTest obj;
+public class GetCardsTest extends BaseTest{
 
     @Test
     public void checkGetCards(){
-        obj.requestWithAuth()
+        requestWithAuth()
                 .pathParam("list_id", "646746aecb24dbfdcd185387")
                 .get("/1/lists/{list_id}/cards")
                 .then()
@@ -23,7 +15,7 @@ public class GetCardsTest {
 
     @Test
     public void checkGetCard(){
-        obj.requestWithAuth()
+        requestWithAuth()
                 .pathParam("card_id", "646748eaef222a0de8dfb52c")
                 .get("/1/cards/{card_id}")
                 .then()
@@ -33,7 +25,7 @@ public class GetCardsTest {
 
     @Test
     public void checkGetCardsValidation() { // Create a method, which is for the JSON schema validation only.
-        obj.requestWithAuth()
+        requestWithAuth()
                 .queryParams("fields", "id,name")
                 .pathParam("list_id", "646746aecb24dbfdcd185387")
                 .get("/1/lists/{list_id}/cards")
@@ -45,7 +37,7 @@ public class GetCardsTest {
 
     @Test
     public void checkGetCardValidation(){ // Create a method, which is for the JSON schema validation only.
-        obj.requestWithAuth()
+        requestWithAuth()
                 .queryParams("fields", "id,name")
                 .pathParam("card_id", "646748eaef222a0de8dfb52c")
                 .get("/1/cards/{card_id}")

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class BaseTest and added methods requestWithAuth() and RequestWithoutAuth() in it. I refactored the code in hte other classes: GetBoardsTest and GetBoardsValidationTest.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I refactored the code and moved the hook @BeforeAll in the BaseTest Java class.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetCardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCardsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetCardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCardsValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GetBoardsTest">
+  <component name="RunManager" selected="Gradle.GetCardsValidationTest">
     <configuration name="GetBoardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,30 +102,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GetBoardsValidationTest.checkGetBoardsWIthInvalidAuth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;GetBoardsValidationTest.checkGetBoardsWIthInvalidAuth&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="GetBoardsValidationTest.checkGetBoardsWIthInvalidId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,6 +116,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;GetBoardsValidationTest.checkGetBoardsWIthInvalidId&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetCardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GetCardsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GetBoardsTest" />
-        <item itemvalue="Gradle.GetBoardsValidationTest" />
         <item itemvalue="Gradle.GetCardsValidationTest" />
+        <item itemvalue="Gradle.GetCardsTest" />
+        <item itemvalue="Gradle.GetBoardsValidationTest" />
+        <item itemvalue="Gradle.GetBoardsTest" />
         <item itemvalue="Gradle.GetBoardsValidationTest.checkGetBoardsWIthInvalidId" />
-        <item itemvalue="Gradle.GetBoardsValidationTest.checkGetBoardsWIthInvalidAuth" />
       </list>
     </recent_temporary>
   </component>
@@ -478,12 +480,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685736840278</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="I refactored the code and moved the hook @BeforeAll in the BaseTest Java class.">
+      <created>1685737253019</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1685737253019</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I added new Test method to get a specific board." />
     <MESSAGE value="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully." />
     <MESSAGE value="I refactored the code and the test runs successfully." />
     <MESSAGE value="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully." />
@@ -508,6 +516,7 @@
     <MESSAGE value="I changed modifiers in the requestWithAuth() methods from public to private." />
     <MESSAGE value="No changes were made, checked the tests again, tests run OK." />
     <MESSAGE value="I created new class BaseTest and added methods requestWithAuth() and RequestWithoutAuth() in it. I refactored the code in hte other classes: GetBoardsTest and GetBoardsValidationTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created new class BaseTest and added methods requestWithAuth() and RequestWithoutAuth() in it. I refactored the code in hte other classes: GetBoardsTest and GetBoardsValidationTest." />
+    <MESSAGE value="I refactored the code and moved the hook @BeforeAll in the BaseTest Java class." />
+    <option name="LAST_COMMIT_MESSAGE" value="I refactored the code and moved the hook @BeforeAll in the BaseTest Java class." />
   </component>
 </project>
