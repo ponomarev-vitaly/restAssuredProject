@@ -1,14 +1,9 @@
-import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.hamcrest.Matchers;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class GetBoardsTest extends BaseTest{
-    @BeforeAll
-    public static void setBaseUrl(){
-        RestAssured.baseURI = "https://api.trello.com";
-    }
+
 
 
     @Test

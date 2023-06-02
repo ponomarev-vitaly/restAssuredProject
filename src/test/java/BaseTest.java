@@ -1,9 +1,15 @@
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
+import org.junit.jupiter.api.BeforeAll;
 
 import java.util.Map;
 
 public class BaseTest {
+
+    @BeforeAll
+    public static void setBaseUrl(){
+        RestAssured.baseURI = "https://api.trello.com";
+    }
     protected static RequestSpecification requestWithAuth() {
         return requestWithoutAuth() // Create object.
                 .queryParams(Map.of(
