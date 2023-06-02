@@ -1,6 +1,10 @@
+import arguments.holders.BoardIdValidationArgumentsHolder;
+import arguments.providers.BoardIdValidationArgumentsProvider;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ArgumentsSource;
 
 import java.util.Map;
 
@@ -9,15 +13,16 @@ public class GetBoardsValidationTest extends BaseTest{
 
 
 
-    @Test
-    public void checkGetBoardWIthInvalidId(){ // This is the test to check if the user sends invalid id.
+    @ParameterizedTest
+    @ArgumentsSource(BoardIdValidationArgumentsProvider.class)
+    public void checkGetBoardWIthInvalidId(BoardIdValidationArgumentsHolder validationArguments){ // This is the test to check if the user sends invalid id.
         Response response = requestWithAuth()
-                .pathParam("id", "invalid")
+                .pathParams(validationArguments.getPathParams())
                 .get("/1/boards/{id}");
         response
                 .then()
-                .statusCode(400);
-        Assertions.assertEquals("invalid id", response.body().asString());
+                .statusCode(validationArguments.getStatusCode());
+        Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
     }
 
     @Test
