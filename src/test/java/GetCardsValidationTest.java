@@ -1,20 +1,25 @@
+import arguments.holders.CardIdValidationArgumentsHolder;
+import arguments.providers.CardIdValidationArgumentsProvider;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ArgumentsSource;
 
 import java.util.Map;
 
 public class GetCardsValidationTest extends BaseTest{
 
-    @Test
-    public void checkGetCardWIthInvalidId(){ // This is the test to check if the user sends invalid id.
+    @ParameterizedTest
+    @ArgumentsSource(CardIdValidationArgumentsProvider.class)
+    public void checkGetCardWIthInvalidId(CardIdValidationArgumentsHolder validationArguments){ // This is the test to check if the user sends invalid id.
         Response response = requestWithAuth()
-                .pathParam("card_id", "invalid")
+                .pathParams(validationArguments.getPathParams())
                 .get("/1/cards/{card_id}");
         response
                 .then()
-                .statusCode(400);
-        Assertions.assertEquals("invalid id", response.body().asString());
+                .statusCode(validationArguments.getStatusCode());
+        Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
     }
 
     @Test
@@ -43,6 +48,4 @@ public class GetCardsValidationTest extends BaseTest{
                 .statusCode(401);
         Assertions.assertEquals("invalid token", response.body().asString());
     }
-
-
 }

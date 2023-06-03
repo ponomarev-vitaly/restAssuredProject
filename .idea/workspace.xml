@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I refactored the code in the GetCardsTest and GetCardsValidationTest. I also run the code successfully.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arguments/holders/BoardIdValidationArgumentsHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/BoardIdValidationArgumentsProvider.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I changed the test to ParameterizedTest and added BoardIdValidationArgumentsHolder, BoardIdValidationArgumentsProvider Java classes. Run the tests in GetBoardsValidationTest Java class successfully.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/arguments/holders/CardIdValidationArgumentsHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/CardIdValidationArgumentsProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetCardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCardsValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GetBoardsValidationTest">
+  <component name="RunManager" selected="Gradle.GetCardsValidationTest">
     <configuration name="GetBoardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -178,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GetBoardsValidationTest" />
         <item itemvalue="Gradle.GetCardsValidationTest" />
+        <item itemvalue="Gradle.GetBoardsValidationTest" />
         <item itemvalue="Gradle.GetCardsTest" />
         <item itemvalue="Gradle.GetBoardsTest" />
         <item itemvalue="Gradle.GetBoardsValidationTest.checkGetBoardsWIthInvalidId" />
@@ -496,12 +496,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685738114960</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="I changed the test to ParameterizedTest and added BoardIdValidationArgumentsHolder, BoardIdValidationArgumentsProvider Java classes. Run the tests in GetBoardsValidationTest Java class successfully.">
+      <created>1685745521347</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1685745521347</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I refactored the code and the test runs successfully." />
     <MESSAGE value="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully." />
     <MESSAGE value="I modified the code." />
     <MESSAGE value="No changes were made, checked the test, test runs OK." />
@@ -526,6 +532,7 @@
     <MESSAGE value="I created new class BaseTest and added methods requestWithAuth() and RequestWithoutAuth() in it. I refactored the code in hte other classes: GetBoardsTest and GetBoardsValidationTest." />
     <MESSAGE value="I refactored the code and moved the hook @BeforeAll in the BaseTest Java class." />
     <MESSAGE value="I refactored the code in the GetCardsTest and GetCardsValidationTest. I also run the code successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I refactored the code in the GetCardsTest and GetCardsValidationTest. I also run the code successfully." />
+    <MESSAGE value="I changed the test to ParameterizedTest and added BoardIdValidationArgumentsHolder, BoardIdValidationArgumentsProvider Java classes. Run the tests in GetBoardsValidationTest Java class successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I changed the test to ParameterizedTest and added BoardIdValidationArgumentsHolder, BoardIdValidationArgumentsProvider Java classes. Run the tests in GetBoardsValidationTest Java class successfully." />
   </component>
 </project>
