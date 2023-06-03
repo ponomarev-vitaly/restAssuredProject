@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I generated one more parameterized test, created ArgumentsHolder class and ArgumentsProvider class, refactored JUnit 5 test.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code and try to run the code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -515,12 +514,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685819754841</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="I modified the code and try to run the code.">
+      <created>1685820185088</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1685820185088</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="No changes were made, checked the test, test runs OK." />
     <MESSAGE value="I added .body() method to check whether the name of the card equals to the operand's name. Test runs OK." />
     <MESSAGE value="I added new dependency JSON schema validator in the build.gradle file." />
     <MESSAGE value="I added .queryParam() method and checked the test. The test runs successfully." />
@@ -545,6 +550,7 @@
     <MESSAGE value="I changed the test to ParameterizedTest and added BoardIdValidationArgumentsHolder, BoardIdValidationArgumentsProvider Java classes. Run the tests in GetBoardsValidationTest Java class successfully." />
     <MESSAGE value="I transformed validation test for GET Card by ID endpoint from into a Parameterized Test." />
     <MESSAGE value="I generated one more parameterized test, created ArgumentsHolder class and ArgumentsProvider class, refactored JUnit 5 test." />
-    <option name="LAST_COMMIT_MESSAGE" value="I generated one more parameterized test, created ArgumentsHolder class and ArgumentsProvider class, refactored JUnit 5 test." />
+    <MESSAGE value="I modified the code and try to run the code." />
+    <option name="LAST_COMMIT_MESSAGE" value="I modified the code and try to run the code." />
   </component>
 </project>
