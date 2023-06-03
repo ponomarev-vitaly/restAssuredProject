@@ -1,3 +1,5 @@
+import arguments.AuthValidationArgumentsHolder;
+import arguments.AuthValidationArgumentsProvider;
 import arguments.holders.BoardIdValidationArgumentsHolder;
 import arguments.providers.BoardIdValidationArgumentsProvider;
 import io.restassured.response.Response;
@@ -25,9 +27,11 @@ public class GetBoardsValidationTest extends BaseTest{
         Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
     }
 
-    @Test
-    public void checkGetBoardWIthInvalidAuth() { // This is the test for the situation when the user tries to access a board without access key and token.
+    @ParameterizedTest
+    @ArgumentsSource(AuthValidationArgumentsProvider.class)
+    public void checkGetBoardWIthInvalidAuth(AuthValidationArgumentsHolder validationArguments) { // This is the test for the situation when the user tries to access a board without access key and token.
         Response response = requestWithoutAuth()
+                .queryParams(validationArguments.getAuthParams())
                 .pathParam("id", "646746aecb24dbfdcd185380")
                 .get("/1/boards/{id}");
         response
