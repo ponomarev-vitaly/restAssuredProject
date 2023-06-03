@@ -29,7 +29,7 @@ public class GetBoardsValidationTest extends BaseTest{
 
     @ParameterizedTest
     @ArgumentsSource(AuthValidationArgumentsProvider.class)
-    public void checkGetBoardWIthInvalidAuth(AuthValidationArgumentsHolder validationArguments) { // This is the test for the situation when the user tries to access a board without access key and token.
+    public void checkGetBoardWithInvalidAuth(AuthValidationArgumentsHolder validationArguments) { // This is the test for the situation when the user tries to access a board without access key and token.
         Response response = requestWithoutAuth()
                 .queryParams(validationArguments.getAuthParams())
                 .pathParam("id", "646746aecb24dbfdcd185380")
