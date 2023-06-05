@@ -1,8 +1,13 @@
+package test.get;
+
+import consts.BoardsEndpoints;
+import consts.UrlParamValues;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
+import test.BaseTest;
 
-public class GetBoardsTest extends BaseTest{
+public class GetBoardsTest extends BaseTest {
 
 
 
@@ -10,8 +15,8 @@ public class GetBoardsTest extends BaseTest{
     public void checkGetBoards() { // Create a method.
         requestWithAuth()
                 .queryParam("fields", "id,name")
-                .pathParam("member", "vitalyponomarev3")
-                .get("/1/members/{member}/boards")
+                .pathParam("member", UrlParamValues.USER_NAME)
+                .get(BoardsEndpoints.GET_ALL_BOARDS_URL)
                 .then()
                 .statusCode(200)
                 .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("schemas/get_boards.json"));
@@ -22,8 +27,8 @@ public class GetBoardsTest extends BaseTest{
     public void checkGetBoard(){
         requestWithAuth()
                 .queryParam("fields", "id,name")
-                .pathParam("id", "646746aecb24dbfdcd185380")
-                .get("/1/boards/{id}")
+                .pathParam("id", UrlParamValues.EXISTING_BOARD_ID)
+                .get(BoardsEndpoints.GET_BOARD_URL)
                 .then()
                 .statusCode(200)
                 .body("name", Matchers.equalTo("New Board"))
