@@ -1,3 +1,5 @@
+import arguments.AuthValidationArgumentsHolder;
+import arguments.AuthValidationArgumentsProvider;
 import arguments.holders.CardIdValidationArgumentsHolder;
 import arguments.providers.CardIdValidationArgumentsProvider;
 import io.restassured.response.Response;
@@ -22,8 +24,9 @@ public class GetCardsValidationTest extends BaseTest{
         Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
     }
 
-    @Test
-    public void checkGetCardWIthInvalidAuth() { // This is the test for the situation when the user tries to access a board without access key and token.
+    @ParameterizedTest
+    @ArgumentsSource(AuthValidationArgumentsProvider.class)
+    public void checkGetCardWIthInvalidAuth(AuthValidationArgumentsHolder validationArguments) { // This is the test for the situation when the user tries to access a board without access key and token.
         Response response = requestWithoutAuth()
                 .pathParam("card_id", "646748eaef222a0de8dfb52c")
                 .get("/1/cards/{card_id}");
