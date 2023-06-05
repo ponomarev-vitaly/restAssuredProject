@@ -1,5 +1,5 @@
-import arguments.AuthValidationArgumentsHolder;
-import arguments.AuthValidationArgumentsProvider;
+import arguments.holders.AuthValidationArgumentsHolder;
+import arguments.providers.AuthValidationArgumentsProvider;
 import arguments.holders.CardIdValidationArgumentsHolder;
 import arguments.providers.CardIdValidationArgumentsProvider;
 import io.restassured.response.Response;

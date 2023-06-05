@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added some useful and important comments and commented some prints.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I transformed the checkGetCardWithInvalidAuth() method into parameterized.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetCardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCardsValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/holders/AuthValidationArgumentsHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00002" summary="I added FirstClass.java">
-      <created>1684790786628</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684790786628</updated>
     </task>
     <task id="LOCAL-00003" summary="I modified the code.">
       <created>1684832538523</created>
@@ -536,12 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685998602528</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="I transformed the checkGetCardWithInvalidAuth() method into parameterized.">
+      <created>1685998969212</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1685998969212</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I added get_boards.json file with the JSON schema in it." />
     <MESSAGE value="I added .body() method for the JSON validation." />
     <MESSAGE value="I created Json schema validation for the board. I added the code in the get_board.json. I run the tests successfully." />
     <MESSAGE value="No changes were made." />
@@ -566,6 +567,7 @@
     <MESSAGE value="I modified the code and had the problem while running the test, try to fix it." />
     <MESSAGE value="I modified the code and run all the tests successfully." />
     <MESSAGE value="I added some useful and important comments and commented some prints." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added some useful and important comments and commented some prints." />
+    <MESSAGE value="I transformed the checkGetCardWithInvalidAuth() method into parameterized." />
+    <option name="LAST_COMMIT_MESSAGE" value="I transformed the checkGetCardWithInvalidAuth() method into parameterized." />
   </component>
 </project>
