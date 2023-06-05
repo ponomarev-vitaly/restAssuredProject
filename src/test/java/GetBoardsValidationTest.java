@@ -34,7 +34,7 @@ public class GetBoardsValidationTest extends BaseTest{
                 .queryParams(validationArguments.getAuthParams())
                 .pathParam("id", "646746aecb24dbfdcd185380")
                 .get("/1/boards/{id}");
-        System.out.println(response.body().asString());
+        // System.out.println(response.body().asString());
         response
                 .then()
                 .statusCode(401);
@@ -51,7 +51,7 @@ public class GetBoardsValidationTest extends BaseTest{
                 ))
                 .pathParam("id", "646746aecb24dbfdcd185380")
                 .get("/1/boards/{id}");
-        System.out.println(response.body().asString());
+        // I aSystem.out.println(response.body().asString());
         response
                 .then()
                 .statusCode(401);
