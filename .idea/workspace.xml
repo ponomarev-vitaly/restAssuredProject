@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code and try to run the code.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code and had the problem while running the test, try to fix it.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetBoardsValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/AuthValidationArgumentsProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,30 +55,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.GetBoardsValidationTest">
-    <configuration name="GetBoardsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;GetBoardsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="GetBoardsValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -91,6 +69,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;GetBoardsValidationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetBoardsValidationTest.checkGetBoardWIthInvalidId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GetBoardsValidationTest.checkGetBoardWIthInvalidId&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,9 +179,9 @@
       <list>
         <item itemvalue="Gradle.GetBoardsValidationTest" />
         <item itemvalue="Gradle.GetBoardsValidationTest.checkGetBoardWithInvalidAuth" />
+        <item itemvalue="Gradle.GetBoardsValidationTest.checkGetBoardWIthInvalidId" />
         <item itemvalue="Gradle.GetCardsValidationTest" />
         <item itemvalue="Gradle.GetCardsTest" />
-        <item itemvalue="Gradle.GetBoardsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -521,12 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1685820185088</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="I modified the code and had the problem while running the test, try to fix it.">
+      <created>1685821242337</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1685821242337</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I added .body() method to check whether the name of the card equals to the operand's name. Test runs OK." />
     <MESSAGE value="I added new dependency JSON schema validator in the build.gradle file." />
     <MESSAGE value="I added .queryParam() method and checked the test. The test runs successfully." />
     <MESSAGE value="I added get_boards.json file with the JSON schema in it." />
@@ -551,6 +559,7 @@
     <MESSAGE value="I transformed validation test for GET Card by ID endpoint from into a Parameterized Test." />
     <MESSAGE value="I generated one more parameterized test, created ArgumentsHolder class and ArgumentsProvider class, refactored JUnit 5 test." />
     <MESSAGE value="I modified the code and try to run the code." />
-    <option name="LAST_COMMIT_MESSAGE" value="I modified the code and try to run the code." />
+    <MESSAGE value="I modified the code and had the problem while running the test, try to fix it." />
+    <option name="LAST_COMMIT_MESSAGE" value="I modified the code and had the problem while running the test, try to fix it." />
   </component>
 </project>

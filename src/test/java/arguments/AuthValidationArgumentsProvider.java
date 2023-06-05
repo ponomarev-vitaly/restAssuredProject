@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 public class AuthValidationArgumentsProvider implements ArgumentsProvider {
 
     @Override
-    public Stream provideArguments(ExtensionContext context) throws Exception{
+    public Stream provideArguments(ExtensionContext context){
         return Stream.of(
                 new AuthValidationArgumentsHolder(
                         Collections.emptyMap()
@@ -23,7 +23,8 @@ public class AuthValidationArgumentsProvider implements ArgumentsProvider {
                 ),
                 new AuthValidationArgumentsHolder(
                         Map.of(
-                                "token", "ATTAefa2c1bf12159579a4153dc7d77b4ca9055612b58ba8c673c1b0a04d6ad834c3EB4CCA0D"
+                                "key", "fb04999a731923c2e3137153b1ad5de0",
+                                "token", "b73120fb537fceb444050a2a4c08e2f96f47389931bd80253d2440708f2a57e1"
                         )
                 )
         ).map(Arguments::of);
