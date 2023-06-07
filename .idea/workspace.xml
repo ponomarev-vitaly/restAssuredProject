@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I refactored all the repeated elements, created new classes BoardsEndpoints, CardsEndpoints, UrlParamValues. I run all the tests successfully." />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I checked all the code again and run all the tests successfully.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,13 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00005" summary="I used .log() method to get log specification.">
-      <created>1684833080029</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1684833080029</updated>
     </task>
     <task id="LOCAL-00006" summary="I renamed the build.gradle file by reducing .kts extension.">
       <created>1684848317933</created>
@@ -542,12 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686002527701</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="I checked all the code again and run all the tests successfully.">
+      <created>1686002985018</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1686002985018</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="No changes were made." />
     <MESSAGE value="I checked the code and run the test successfully." />
     <MESSAGE value="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed." />
     <MESSAGE value="These 2 methods checkGetCardsValidation() and checkGetCardValidation() were created for the JSON schema validation only." />
@@ -572,6 +573,7 @@
     <MESSAGE value="I transformed the checkGetCardWithInvalidAuth() method into parameterized." />
     <MESSAGE value="I improved test framework structure." />
     <MESSAGE value="I refactored all the repeated elements, created new classes BoardsEndpoints, CardsEndpoints, UrlParamValues. I run all the tests successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I refactored all the repeated elements, created new classes BoardsEndpoints, CardsEndpoints, UrlParamValues. I run all the tests successfully." />
+    <MESSAGE value="I checked all the code again and run all the tests successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I checked all the code again and run all the tests successfully." />
   </component>
 </project>
