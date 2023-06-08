@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I checked all the code and modified the code. I run all the tests successfully.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardTest.java" afterDir="false" />
@@ -202,13 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00008" summary="I modified the code to print the response into the console.">
-      <created>1684873833546</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1684873833546</updated>
     </task>
     <task id="LOCAL-00009" summary="I added the code with the dependencies for the junit jupiter.">
       <created>1684960201381</created>
@@ -546,12 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686246427959</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="I checked all the code and modified the code. I run all the tests successfully.">
+      <created>1686250807772</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1686250807772</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="These 2 methods checkGetCardsValidation() and checkGetCardValidation() were created for the JSON schema validation only." />
     <MESSAGE value="I added new Java class GetBoardsValidationTest and checkGetBoardsWIthInvalidId() method to check the situation when the user enters invalid id." />
     <MESSAGE value="I added new method checkGetBoardsWIthInvalidAuth() to check whether the key and token provided are authorized to let the user enter the board." />
     <MESSAGE value="I added new method checkGetBoardWithAnotherUserCredentials() to check the situation when the user uses the key and token from another user. I run the code, but 2 tests failed. I'm checking the code." />
@@ -576,6 +575,7 @@
     <MESSAGE value="I checked all the code again and run all the tests successfully." />
     <MESSAGE value="I created first automation test for POST request. I run the test successfully." />
     <MESSAGE value="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello." />
+    <MESSAGE value="I checked all the code and modified the code. I run all the tests successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I checked all the code and modified the code. I run all the tests successfully." />
   </component>
 </project>
