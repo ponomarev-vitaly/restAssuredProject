@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code in the BoardNameValidationArgumentsProvider java class.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added another modified solution for this test. I run the test successfully.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,13 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00012" summary="I modified the code, but still have to fix the code.">
-      <created>1685047324179</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1685047324179</updated>
     </task>
     <task id="LOCAL-00013" summary="I fixed the issues and ran the test successfully.">
       <created>1685048989206</created>
@@ -546,12 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686256350839</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="I added another modified solution for this test. I run the test successfully.">
+      <created>1686259208478</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1686259208478</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I modified the code, all is working correctly." />
     <MESSAGE value="I added new Java class GetCardsValidationTest to validate tests for GET card(s) methods." />
     <MESSAGE value="I added three methods checkGetCardWIthInvalidId(), checkGetCardWIthInvalidAuth(), checkGetCardWithAnotherUserCredentials() and requestWithAuth(). I ran the test, all worked well." />
     <MESSAGE value="I changed modifiers in the requestWithAuth() methods from public to private." />
@@ -576,6 +573,7 @@
     <MESSAGE value="I rerun the test and it was successful." />
     <MESSAGE value="I created new class BoardNameValidationArgumentsProvider." />
     <MESSAGE value="I modified the code in the BoardNameValidationArgumentsProvider java class." />
-    <option name="LAST_COMMIT_MESSAGE" value="I modified the code in the BoardNameValidationArgumentsProvider java class." />
+    <MESSAGE value="I added another modified solution for this test. I run the test successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added another modified solution for this test. I run the test successfully." />
   </component>
 </project>
