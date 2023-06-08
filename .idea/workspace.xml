@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created first automation test for POST request. I run the test successfully.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CreateBoardTest">
+  <component name="RunManager" selected="Gradle.CreateCardTest">
     <configuration name="CreateBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -77,6 +78,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;test.create.CreateBoardTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="CreateCardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.create.CreateCardTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,37 +184,13 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GetCardsValidationTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.get.GetCardsValidationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateCardTest" />
         <item itemvalue="Gradle.CreateBoardTest" />
         <item itemvalue="Gradle.GetCardsTest" />
         <item itemvalue="Gradle.GetBoardsTest" />
         <item itemvalue="Gradle.GetBoardsValidationTest (1)" />
-        <item itemvalue="Gradle.GetCardsValidationTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -201,13 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00007" summary="I checked this project for working correctly with others web-resources.">
-      <created>1684848657470</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1684848657470</updated>
     </task>
     <task id="LOCAL-00008" summary="I modified the code to print the response into the console.">
       <created>1684873833546</created>
@@ -545,12 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686177080762</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello.">
+      <created>1686246427959</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1686246427959</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed." />
     <MESSAGE value="These 2 methods checkGetCardsValidation() and checkGetCardValidation() were created for the JSON schema validation only." />
     <MESSAGE value="I added new Java class GetBoardsValidationTest and checkGetBoardsWIthInvalidId() method to check the situation when the user enters invalid id." />
     <MESSAGE value="I added new method checkGetBoardsWIthInvalidAuth() to check whether the key and token provided are authorized to let the user enter the board." />
@@ -575,6 +575,7 @@
     <MESSAGE value="I refactored all the repeated elements, created new classes BoardsEndpoints, CardsEndpoints, UrlParamValues. I run all the tests successfully." />
     <MESSAGE value="I checked all the code again and run all the tests successfully." />
     <MESSAGE value="I created first automation test for POST request. I run the test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created first automation test for POST request. I run the test successfully." />
+    <MESSAGE value="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello." />
   </component>
 </project>
