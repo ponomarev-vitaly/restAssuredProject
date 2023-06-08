@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I rerun the test and it was successful." />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class BoardNameValidationArgumentsProvider.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/BoardNameValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/BoardNameValidationArgumentsProvider.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,13 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00010" summary="I deleted RestAssuredRunner class and created TrelloTest java class instead.">
-      <created>1684960455812</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1684960455812</updated>
     </task>
     <task id="LOCAL-00011" summary="I added an import junit.jupiter.api.Test.">
       <created>1684961041969</created>
@@ -542,12 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686250834755</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="I created new class BoardNameValidationArgumentsProvider.">
+      <created>1686255961779</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1686255961779</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I added new method checkGetBoardsWIthInvalidAuth() to check whether the key and token provided are authorized to let the user enter the board." />
     <MESSAGE value="I added new method checkGetBoardWithAnotherUserCredentials() to check the situation when the user uses the key and token from another user. I run the code, but 2 tests failed. I'm checking the code." />
     <MESSAGE value="I modified the code, all is working correctly." />
     <MESSAGE value="I added new Java class GetCardsValidationTest to validate tests for GET card(s) methods." />
@@ -572,6 +574,7 @@
     <MESSAGE value="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello." />
     <MESSAGE value="I checked all the code and modified the code. I run all the tests successfully." />
     <MESSAGE value="I rerun the test and it was successful." />
-    <option name="LAST_COMMIT_MESSAGE" value="I rerun the test and it was successful." />
+    <MESSAGE value="I created new class BoardNameValidationArgumentsProvider." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created new class BoardNameValidationArgumentsProvider." />
   </component>
 </project>
