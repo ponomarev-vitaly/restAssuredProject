@@ -56,10 +56,10 @@ public class CreateCardValidationTest extends BaseTest {
                 ))
                 .contentType(ContentType.JSON)
                 .get(CardsEndpoints.CREATE_CARD_URL);
+        System.out.println("This is the result of the 3rd test " + response.body().asString());
         response
                 .then()
                 .statusCode(404);
-        // Assertions.assertEquals("invalid token", response.body().asString());
-        Assertions.assertEquals("Cannot GET /1/cards/?key=8b32218e6887516d17c84253faf967b6&token=492343b8106e7df3ebb7f01e219cbf32827c852a5f9e2b8f9ca296b1cc604955", response.body().asString());
+        Assertions.assertEquals("invalid token", response.body().asString());
     }
 }

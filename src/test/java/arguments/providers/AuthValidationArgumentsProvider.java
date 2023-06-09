@@ -40,11 +40,11 @@ public class AuthValidationArgumentsProvider implements ArgumentsProvider {
                         "invalid key"
                 ),
                 new AuthValidationArgumentsHolder(
-                        Map.of("key", UrlParamValues.VALID_KEY),
+                        Map.of("key", UrlParamValues.VALID_KEY_SECOND),
                         "unauthorized card permission requested"
                 ),
                 new AuthValidationArgumentsHolder(
-                        Map.of("token", UrlParamValues.VALID_TOKEN),
+                        Map.of("token", UrlParamValues.VALID_TOKEN_SECOND),
                         "invalid key"
                 )
         ).map(Arguments::of);

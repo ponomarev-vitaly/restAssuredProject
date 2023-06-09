@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I refactored the code and run the POST Validation test successfully.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arguments/holders/CardBodyValidationArgumentsHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/CardBodyValidationArgumentsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/CardBodyValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/CardBodyValidationArgumentsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,8 +190,8 @@
       <list>
         <item itemvalue="Gradle.CreateCardValidationTest" />
         <item itemvalue="Gradle.GetCardsValidationTest" />
-        <item itemvalue="Gradle.CreateCardValidationTest.checkGetCardWithAnotherUserCredentials" />
         <item itemvalue="Gradle.CreateBoardValidationTest" />
+        <item itemvalue="Gradle.CreateCardValidationTest.checkGetCardWithAnotherUserCredentials" />
         <item itemvalue="Gradle.CreateCardTest" />
       </list>
     </recent_temporary>
@@ -204,13 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00016" summary="I added new Test method to get a specific board.">
-      <created>1685118218984</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1685118218984</updated>
     </task>
     <task id="LOCAL-00017" summary="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully.">
       <created>1685119563351</created>
@@ -548,12 +541,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686301956538</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it.">
+      <created>1686313808520</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1686313808520</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="No changes were made, checked the tests again, tests run OK." />
     <MESSAGE value="I created new class BaseTest and added methods requestWithAuth() and RequestWithoutAuth() in it. I refactored the code in hte other classes: GetBoardsTest and GetBoardsValidationTest." />
     <MESSAGE value="I refactored the code and moved the hook @BeforeAll in the BaseTest Java class." />
     <MESSAGE value="I refactored the code in the GetCardsTest and GetCardsValidationTest. I also run the code successfully." />
@@ -578,6 +577,7 @@
     <MESSAGE value="I created new class CreateBoardValidationTest java class." />
     <MESSAGE value="I modified the code and run the test successfully." />
     <MESSAGE value="I refactored the code and run the POST Validation test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I refactored the code and run the POST Validation test successfully." />
+    <MESSAGE value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
   </component>
 </project>
