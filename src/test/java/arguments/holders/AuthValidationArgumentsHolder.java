@@ -5,12 +5,19 @@ import java.util.Map;
 public class AuthValidationArgumentsHolder {
     private final Map<String, String> authParams;
 
-    public AuthValidationArgumentsHolder(Map<String, String> authParams) {
+    private final String errorMessage;
+
+    public AuthValidationArgumentsHolder(Map<String, String> authParams, String errorMessage) {
         this.authParams = authParams;
+        this.errorMessage = errorMessage;
     }
 
     public Map<String, String> getAuthParams() {
         // System.out.println(authParams + "This is info");
         return authParams;
+    }
+
+    public String getErrorMessage() {
+        return errorMessage;
     }
 }
