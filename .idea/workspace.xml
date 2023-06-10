@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code, but still have some issues to fix.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/update/UpdateBoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/CardBodyValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/CardBodyValidationArgumentsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/consts/BoardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/BoardsEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/consts/UrlParamValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/UrlParamValues.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CreateCardValidationTest">
+  <component name="RunManager" selected="Gradle.UpdateBoardTest">
     <configuration name="CreateBoardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -80,30 +79,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;test.create.CreateBoardValidationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="CreateCardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.create.CreateCardTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,13 +161,37 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="UpdateBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.update.UpdateBoardTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UpdateBoardTest" />
         <item itemvalue="Gradle.CreateCardValidationTest" />
         <item itemvalue="Gradle.GetCardsValidationTest" />
         <item itemvalue="Gradle.CreateBoardValidationTest" />
         <item itemvalue="Gradle.CreateCardValidationTest.checkGetCardWithAnotherUserCredentials" />
-        <item itemvalue="Gradle.CreateCardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,13 +203,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00017" summary="I created new method requestWithAuth() and put the .given(), .queryParams() methods in it. Run the test successfully.">
-      <created>1685119563351</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1685119563351</updated>
     </task>
     <task id="LOCAL-00018" summary="I refactored the code and the test runs successfully.">
       <created>1685123729650</created>
@@ -548,12 +540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686313808520</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="I modified the code, but still have some issues to fix.">
+      <created>1686343265541</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343265541</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I created new class BaseTest and added methods requestWithAuth() and RequestWithoutAuth() in it. I refactored the code in hte other classes: GetBoardsTest and GetBoardsValidationTest." />
     <MESSAGE value="I refactored the code and moved the hook @BeforeAll in the BaseTest Java class." />
     <MESSAGE value="I refactored the code in the GetCardsTest and GetCardsValidationTest. I also run the code successfully." />
     <MESSAGE value="I changed the test to ParameterizedTest and added BoardIdValidationArgumentsHolder, BoardIdValidationArgumentsProvider Java classes. Run the tests in GetBoardsValidationTest Java class successfully." />
@@ -578,6 +576,7 @@
     <MESSAGE value="I modified the code and run the test successfully." />
     <MESSAGE value="I refactored the code and run the POST Validation test successfully." />
     <MESSAGE value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
+    <MESSAGE value="I modified the code, but still have some issues to fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="I modified the code, but still have some issues to fix." />
   </component>
 </project>
