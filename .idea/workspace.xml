@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code, but still have some issues to fix.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/update/UpdateBoardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/consts/BoardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/BoardsEndpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/consts/UrlParamValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/UrlParamValues.java" afterDir="false" />
-    </list>
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created path flow test for Update Board Trello's endpoint. I run the test successfully." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,13 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00018" summary="I refactored the code and the test runs successfully.">
-      <created>1685123729650</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1685123729650</updated>
     </task>
     <task id="LOCAL-00019" summary="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully.">
       <created>1685125403933</created>
@@ -547,12 +535,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686343265541</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="I created path flow test for Update Board Trello's endpoint. I run the test successfully.">
+      <created>1686429897287</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1686429897287</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I refactored the code and moved the hook @BeforeAll in the BaseTest Java class." />
     <MESSAGE value="I refactored the code in the GetCardsTest and GetCardsValidationTest. I also run the code successfully." />
     <MESSAGE value="I changed the test to ParameterizedTest and added BoardIdValidationArgumentsHolder, BoardIdValidationArgumentsProvider Java classes. Run the tests in GetBoardsValidationTest Java class successfully." />
     <MESSAGE value="I transformed validation test for GET Card by ID endpoint from into a Parameterized Test." />
@@ -577,6 +571,7 @@
     <MESSAGE value="I refactored the code and run the POST Validation test successfully." />
     <MESSAGE value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
     <MESSAGE value="I modified the code, but still have some issues to fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="I modified the code, but still have some issues to fix." />
+    <MESSAGE value="I created path flow test for Update Board Trello's endpoint. I run the test successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created path flow test for Update Board Trello's endpoint. I run the test successfully." />
   </component>
 </project>
