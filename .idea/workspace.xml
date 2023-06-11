@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class for the update board's validation.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added method checkUpdateBoardWithInvalidId() in the test class. I run the test successfully.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/update/UpdateBoardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/update/UpdateBoardValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,13 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00022" summary="No changes were made, checked the test, test runs OK.">
-      <created>1685136326559</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1685136326559</updated>
     </task>
     <task id="LOCAL-00023" summary="I added .body() method to check whether the name of the card equals to the operand's name. Test runs OK.">
       <created>1685183306449</created>
@@ -544,12 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686463139169</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="I added method checkUpdateBoardWithInvalidId() in the test class. I run the test successfully.">
+      <created>1686463591934</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1686463591934</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I generated one more parameterized test, created ArgumentsHolder class and ArgumentsProvider class, refactored JUnit 5 test." />
     <MESSAGE value="I modified the code and try to run the code." />
     <MESSAGE value="I modified the code and had the problem while running the test, try to fix it." />
     <MESSAGE value="I modified the code and run all the tests successfully." />
@@ -574,6 +574,7 @@
     <MESSAGE value="I created another test method for the updating of the card." />
     <MESSAGE value="I modified the code in the test method for the updating of the card." />
     <MESSAGE value="I created new class for the update board's validation." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created new class for the update board's validation." />
+    <MESSAGE value="I added method checkUpdateBoardWithInvalidId() in the test class. I run the test successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added method checkUpdateBoardWithInvalidId() in the test class. I run the test successfully." />
   </component>
 </project>

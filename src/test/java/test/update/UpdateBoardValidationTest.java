@@ -22,4 +22,6 @@ public class UpdateBoardValidationTest extends BaseTest {
                 .statusCode(argumentsHolder.getStatusCode());
         Assertions.assertEquals(argumentsHolder.getErrorMessage(), response.body().asString());
     }
+
+
 }
