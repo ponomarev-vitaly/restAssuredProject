@@ -24,4 +24,5 @@ public class UrlParamValues {
     public static final String EXISTING_LIST_ID = "646746aecb24dbfdcd185387";
 
     public static final String EXISTING_CARD_ID = "646748eaef222a0de8dfb52c";
+    public static final String CARD_ID_TO_UPDATE = "646748eaef222a0de8dfb52c";
 }

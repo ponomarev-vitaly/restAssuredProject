@@ -47,7 +47,7 @@ public class CreateCardValidationTest extends BaseTest {
     }
 
     @Test
-    public void checkGetCardWithAnotherUserCredentials(){
+    public void checkGetCardWithAnotherUserCredentials() {
         Response response = requestWithoutAuth()
                 .queryParams(UrlParamValues.ANOTHER_USER_AUTH_QUERY_PARAMS)
                 .body(Map.of(
@@ -59,7 +59,7 @@ public class CreateCardValidationTest extends BaseTest {
         System.out.println("This is the result of the 3rd test " + response.body().asString());
         response
                 .then()
-                .statusCode(404);
+                .statusCode(401);
         Assertions.assertEquals("invalid token", response.body().asString());
     }
 }

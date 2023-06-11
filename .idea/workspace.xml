@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created path flow test for Update Board Trello's endpoint. I run the test successfully." />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created another test method for the updating of the card.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/consts/UrlParamValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/UrlParamValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/update/UpdateCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/update/UpdateCardTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,31 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UpdateBoardTest">
-    <configuration name="CreateBoardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.create.CreateBoardValidationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.UpdateCardTest">
     <configuration name="CreateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,13 +162,37 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="UpdateCardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.update.UpdateCardTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UpdateBoardTest" />
+        <item itemvalue="Gradle.UpdateCardTest" />
         <item itemvalue="Gradle.CreateCardValidationTest" />
-        <item itemvalue="Gradle.GetCardsValidationTest" />
-        <item itemvalue="Gradle.CreateBoardValidationTest" />
         <item itemvalue="Gradle.CreateCardValidationTest.checkGetCardWithAnotherUserCredentials" />
+        <item itemvalue="Gradle.UpdateBoardTest" />
+        <item itemvalue="Gradle.GetCardsValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,13 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00019" summary="I created new class GetCardsTest and added 2 new tests in it: checkGetCards() and checkGetCard(). I run tests successfully.">
-      <created>1685125403933</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1685125403933</updated>
     </task>
     <task id="LOCAL-00020" summary="I modified the code.">
       <created>1685125670883</created>
@@ -542,12 +541,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686429897287</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="I created another test method for the updating of the card.">
+      <created>1686430305071</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1686430305071</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I refactored the code in the GetCardsTest and GetCardsValidationTest. I also run the code successfully." />
     <MESSAGE value="I changed the test to ParameterizedTest and added BoardIdValidationArgumentsHolder, BoardIdValidationArgumentsProvider Java classes. Run the tests in GetBoardsValidationTest Java class successfully." />
     <MESSAGE value="I transformed validation test for GET Card by ID endpoint from into a Parameterized Test." />
     <MESSAGE value="I generated one more parameterized test, created ArgumentsHolder class and ArgumentsProvider class, refactored JUnit 5 test." />
@@ -572,6 +577,7 @@
     <MESSAGE value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
     <MESSAGE value="I modified the code, but still have some issues to fix." />
     <MESSAGE value="I created path flow test for Update Board Trello's endpoint. I run the test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created path flow test for Update Board Trello's endpoint. I run the test successfully." />
+    <MESSAGE value="I created another test method for the updating of the card." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created another test method for the updating of the card." />
   </component>
 </project>
