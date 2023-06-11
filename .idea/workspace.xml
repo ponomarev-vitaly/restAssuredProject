@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials().">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class DeleteBoardTest.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +62,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UpdateCardValidationTest">
-    <configuration name="CreateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DeleteBoardTest">
+    <configuration name="DeleteBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -75,7 +76,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.create.CreateCardValidationTest&quot;" />
+            <option value="&quot;test.delete.DeleteBoardTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -184,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteBoardTest" />
         <item itemvalue="Gradle.UpdateCardValidationTest" />
         <item itemvalue="Gradle.GetCardValidationTest" />
         <item itemvalue="Gradle.Tests in 'test.update'" />
         <item itemvalue="Gradle.UpdateBoardValidationTest" />
-        <item itemvalue="Gradle.CreateCardValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,13 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00027" summary="I added .body() method for the JSON validation.">
-      <created>1685187799289</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1685187799289</updated>
     </task>
     <task id="LOCAL-00028" summary="I created Json schema validation for the board. I added the code in the get_board.json. I run the tests successfully.">
       <created>1685188322033</created>
@@ -544,12 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686466680785</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="I created new class DeleteBoardTest.">
+      <created>1686467788469</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1686467788469</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I added some useful and important comments and commented some prints." />
     <MESSAGE value="I transformed the checkGetCardWithInvalidAuth() method into parameterized." />
     <MESSAGE value="I improved test framework structure." />
     <MESSAGE value="I refactored all the repeated elements, created new classes BoardsEndpoints, CardsEndpoints, UrlParamValues. I run all the tests successfully." />
@@ -574,6 +574,7 @@
     <MESSAGE value="I added method checkUpdateBoardWithInvalidAuth() in the test class. I run the test successfully." />
     <MESSAGE value="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully." />
     <MESSAGE value="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials()." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials()." />
+    <MESSAGE value="I created new class DeleteBoardTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created new class DeleteBoardTest." />
   </component>
 </project>
