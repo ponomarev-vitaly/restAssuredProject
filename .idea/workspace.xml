@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/update/UpdateCardValidationTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials().">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/get/GetBoardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/get/GetBoardValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/get/GetCardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/get/GetCardValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/update/UpdateBoardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/update/UpdateBoardValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +86,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="GetCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.get.GetCardValidationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests in 'test.update'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -139,30 +158,6 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="UpdateCardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.update.UpdateCardTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <configuration name="UpdateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,10 +185,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.UpdateCardValidationTest" />
+        <item itemvalue="Gradle.GetCardValidationTest" />
         <item itemvalue="Gradle.Tests in 'test.update'" />
         <item itemvalue="Gradle.UpdateBoardValidationTest" />
         <item itemvalue="Gradle.CreateCardValidationTest" />
-        <item itemvalue="Gradle.UpdateCardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,13 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00026" summary="I added get_boards.json file with the JSON schema in it.">
-      <created>1685187674756</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1685187674756</updated>
     </task>
     <task id="LOCAL-00027" summary="I added .body() method for the JSON validation.">
       <created>1685187799289</created>
@@ -549,12 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686464135893</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials().">
+      <created>1686466680785</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1686466680785</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I modified the code and run all the tests successfully." />
     <MESSAGE value="I added some useful and important comments and commented some prints." />
     <MESSAGE value="I transformed the checkGetCardWithInvalidAuth() method into parameterized." />
     <MESSAGE value="I improved test framework structure." />
@@ -579,6 +573,7 @@
     <MESSAGE value="I added method checkUpdateBoardWithInvalidId() in the test class. I run the test successfully." />
     <MESSAGE value="I added method checkUpdateBoardWithInvalidAuth() in the test class. I run the test successfully." />
     <MESSAGE value="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully." />
+    <MESSAGE value="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials()." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials()." />
   </component>
 </project>
