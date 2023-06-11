@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added method checkUpdateBoardWithInvalidAuth() in the test class. I run the test successfully.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/update/UpdateCardValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/get/GetBoardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/get/GetBoardValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/get/GetCardsValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/get/GetCardValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/update/UpdateBoardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/update/UpdateBoardValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UpdateBoardValidationTest">
+  <component name="RunManager" selected="Gradle.UpdateCardValidationTest">
     <configuration name="CreateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -87,7 +91,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="CreateCardValidationTest.checkGetCardWithAnotherUserCredentials" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'test.update'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -100,31 +104,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.create.CreateCardValidationTest.checkGetCardWithAnotherUserCredentials&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="UpdateBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.update.UpdateBoardTest&quot;" />
+            <option value="&quot;test.update.*&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,13 +163,37 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="UpdateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.update.UpdateCardValidationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UpdateCardValidationTest" />
+        <item itemvalue="Gradle.Tests in 'test.update'" />
         <item itemvalue="Gradle.UpdateBoardValidationTest" />
         <item itemvalue="Gradle.CreateCardValidationTest" />
         <item itemvalue="Gradle.UpdateCardTest" />
-        <item itemvalue="Gradle.CreateCardValidationTest.checkGetCardWithAnotherUserCredentials" />
-        <item itemvalue="Gradle.UpdateBoardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,13 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00025" summary="I added .queryParam() method and checked the test. The test runs successfully.">
-      <created>1685184487378</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1685184487378</updated>
     </task>
     <task id="LOCAL-00026" summary="I added get_boards.json file with the JSON schema in it.">
       <created>1685187674756</created>
@@ -545,12 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686463930847</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully.">
+      <created>1686464135893</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1686464135893</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I modified the code and had the problem while running the test, try to fix it." />
     <MESSAGE value="I modified the code and run all the tests successfully." />
     <MESSAGE value="I added some useful and important comments and commented some prints." />
     <MESSAGE value="I transformed the checkGetCardWithInvalidAuth() method into parameterized." />
@@ -575,6 +578,7 @@
     <MESSAGE value="I created new class for the update board's validation." />
     <MESSAGE value="I added method checkUpdateBoardWithInvalidId() in the test class. I run the test successfully." />
     <MESSAGE value="I added method checkUpdateBoardWithInvalidAuth() in the test class. I run the test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added method checkUpdateBoardWithInvalidAuth() in the test class. I run the test successfully." />
+    <MESSAGE value="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully." />
   </component>
 </project>

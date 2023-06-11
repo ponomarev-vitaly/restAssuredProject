@@ -32,7 +32,7 @@ public class UpdateBoardValidationTest extends BaseTest {
 
     @ParameterizedTest
     @ArgumentsSource(AuthValidationArgumentsProvider.class)
-    public void checkUpdateBoardWithInvalidAuth(AuthValidationArgumentsHolder validationArguments) { // This is the test for the situation when the user tries to access a board without access key and token.
+    public void checkUpdateBoardWithInvalidAuth(AuthValidationArgumentsHolder validationArguments) {
         Response response = requestWithoutAuth()
                 .queryParams(validationArguments.getAuthParams())
                 .pathParam("id", UrlParamValues.EXISTING_BOARD_ID)

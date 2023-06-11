@@ -13,7 +13,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ArgumentsSource;
 import test.BaseTest;
 
-public class GetCardsValidationTest extends BaseTest {
+public class GetCardValidationTest extends BaseTest {
 
     @ParameterizedTest
     @ArgumentsSource(CardIdValidationArgumentsProvider.class)

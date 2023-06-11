@@ -13,7 +13,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ArgumentsSource;
 import test.BaseTest;
 
-public class GetBoardsValidationTest extends BaseTest {
+public class GetBoardValidationTest extends BaseTest {
 
 
 
