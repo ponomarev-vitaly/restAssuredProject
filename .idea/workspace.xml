@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I checked the code and run the test DeleteBoardTest successfully.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created a class DeleteCardTest to delete a card with a specific id. I run the test successfully.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,13 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00030" summary="I checked the code and run the test successfully.">
-      <created>1685394702802</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1685394702802</updated>
     </task>
     <task id="LOCAL-00031" summary="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed.">
       <created>1685612827357</created>
@@ -546,12 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686583834670</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="I created a class DeleteCardTest to delete a card with a specific id. I run the test successfully.">
+      <created>1686587208445</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1686587208445</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I refactored all the repeated elements, created new classes BoardsEndpoints, CardsEndpoints, UrlParamValues. I run all the tests successfully." />
     <MESSAGE value="I checked all the code again and run all the tests successfully." />
     <MESSAGE value="I created first automation test for POST request. I run the test successfully." />
     <MESSAGE value="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello." />
@@ -576,6 +573,7 @@
     <MESSAGE value="I created new class DeleteBoardTest." />
     <MESSAGE value="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again." />
     <MESSAGE value="I checked the code and run the test DeleteBoardTest successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I checked the code and run the test DeleteBoardTest successfully." />
+    <MESSAGE value="I created a class DeleteCardTest to delete a card with a specific id. I run the test successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created a class DeleteCardTest to delete a card with a specific id. I run the test successfully." />
   </component>
 </project>
