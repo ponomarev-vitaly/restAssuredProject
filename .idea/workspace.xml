@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created a class DeleteCardTest to delete a card with a specific id. I run the test successfully.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class DeleteBoardValidationTest.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteCardTest">
+  <component name="RunManager" selected="Gradle.DeleteBoardValidationTest">
     <configuration name="CreateBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -134,6 +135,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="DeleteBoardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.delete.DeleteBoardValidationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="DeleteCardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,37 +183,13 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="UpdateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.update.UpdateCardValidationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteBoardValidationTest" />
         <item itemvalue="Gradle.DeleteCardTest" />
         <item itemvalue="Gradle.DeleteBoardTest" />
         <item itemvalue="Gradle.CreateBoardTest" />
         <item itemvalue="Gradle.DeleteBoardTest.checkDeleteBoard" />
-        <item itemvalue="Gradle.UpdateCardValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,20 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00031" summary="I created 2 new tests for the JSON schema validation in the GetCardsTest java class. I also added 2 JSON schemas: get_cards.json and get_card.json with the actual JSON schemas. I run the tests, all test passed.">
-      <created>1685612827357</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1685612827357</updated>
-    </task>
-    <task id="LOCAL-00032" summary="These 2 methods checkGetCardsValidation() and checkGetCardValidation() were created for the JSON schema validation only.">
-      <created>1685612909878</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1685612909878</updated>
     </task>
     <task id="LOCAL-00033" summary="I added new Java class GetBoardsValidationTest and checkGetBoardsWIthInvalidId() method to check the situation when the user enters invalid id.">
       <created>1685654042943</created>
@@ -544,13 +531,25 @@
       <option name="project" value="LOCAL" />
       <updated>1686587208445</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="I modified the code and checked that test runs successfully.">
+      <created>1686587581678</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1686587581678</updated>
+    </task>
+    <task id="LOCAL-00081" summary="I created new class DeleteBoardValidationTest.">
+      <created>1686587735859</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1686587735860</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I checked all the code again and run all the tests successfully." />
-    <MESSAGE value="I created first automation test for POST request. I run the test successfully." />
     <MESSAGE value="I created new class CreateCardTest. I created an automated test for path flow for Create Card endpoint in Trello." />
     <MESSAGE value="I checked all the code and modified the code. I run all the tests successfully." />
     <MESSAGE value="I rerun the test and it was successful." />
@@ -574,6 +573,8 @@
     <MESSAGE value="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again." />
     <MESSAGE value="I checked the code and run the test DeleteBoardTest successfully." />
     <MESSAGE value="I created a class DeleteCardTest to delete a card with a specific id. I run the test successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created a class DeleteCardTest to delete a card with a specific id. I run the test successfully." />
+    <MESSAGE value="I modified the code and checked that test runs successfully." />
+    <MESSAGE value="I created new class DeleteBoardValidationTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created new class DeleteBoardValidationTest." />
   </component>
 </project>
