@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateBoardTest.java" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I checked the code and run the test DeleteBoardTest successfully.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/CardsEndpoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteBoardTest">
+  <component name="RunManager" selected="Gradle.DeleteCardTest">
     <configuration name="CreateBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,7 +136,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GetCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteCardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -149,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.get.GetCardValidationTest&quot;" />
+            <option value="&quot;test.delete.DeleteCardTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteCardTest" />
         <item itemvalue="Gradle.DeleteBoardTest" />
         <item itemvalue="Gradle.CreateBoardTest" />
         <item itemvalue="Gradle.DeleteBoardTest.checkDeleteBoard" />
         <item itemvalue="Gradle.UpdateCardValidationTest" />
-        <item itemvalue="Gradle.GetCardValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -202,13 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00029" summary="No changes were made.">
-      <created>1685393138228</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1685393138228</updated>
     </task>
     <task id="LOCAL-00030" summary="I checked the code and run the test successfully.">
       <created>1685394702802</created>
@@ -546,12 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686468633023</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="I checked the code and run the test DeleteBoardTest successfully.">
+      <created>1686583834669</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1686583834670</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I improved test framework structure." />
     <MESSAGE value="I refactored all the repeated elements, created new classes BoardsEndpoints, CardsEndpoints, UrlParamValues. I run all the tests successfully." />
     <MESSAGE value="I checked all the code again and run all the tests successfully." />
     <MESSAGE value="I created first automation test for POST request. I run the test successfully." />
@@ -576,6 +575,7 @@
     <MESSAGE value="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials()." />
     <MESSAGE value="I created new class DeleteBoardTest." />
     <MESSAGE value="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again." />
+    <MESSAGE value="I checked the code and run the test DeleteBoardTest successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I checked the code and run the test DeleteBoardTest successfully." />
   </component>
 </project>

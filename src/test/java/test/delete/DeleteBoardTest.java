@@ -49,7 +49,7 @@ public class DeleteBoardTest extends BaseTest {
 
     @Test
     public void checkDeleteBoard(){
-        System.out.println("Created Board ID: " + createdBoardId);
+        // System.out.println("Created Board ID: " + createdBoardId);
         requestWithAuth()
                 .pathParam("id", createdBoardId)
                 .delete(BoardsEndpoints.DELETE_BOARD_URL)
