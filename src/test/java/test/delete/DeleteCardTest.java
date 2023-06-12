@@ -18,7 +18,6 @@ public class DeleteCardTest extends BaseTest {
                 .body(Map.of(
                         "name", "New Card",
                         "idList", UrlParamValues.EXISTING_LIST_ID
-
                 ))
                 .contentType(ContentType.JSON)
                 .post(CardsEndpoints.CREATE_CARD_URL)

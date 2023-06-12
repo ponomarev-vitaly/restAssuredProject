@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added methods checkDeleteBoardWithInvalidId(), checkDeleteBoardWithInvalidAuth(), checkDeleteBoardWithAnotherUserCredentials(). I run all the tests successfully.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class DeleteCardValidationTest.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteCardValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteBoardValidationTest">
+  <component name="RunManager" selected="Gradle.DeleteCardValidationTest">
     <configuration name="CreateBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,30 +102,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;test.delete.DeleteBoardTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="DeleteBoardTest.checkDeleteBoard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.delete.DeleteBoardTest.checkDeleteBoard&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,13 +160,37 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="DeleteCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.delete.DeleteCardValidationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteCardValidationTest" />
         <item itemvalue="Gradle.DeleteBoardValidationTest" />
         <item itemvalue="Gradle.DeleteCardTest" />
         <item itemvalue="Gradle.DeleteBoardTest" />
         <item itemvalue="Gradle.CreateBoardTest" />
-        <item itemvalue="Gradle.DeleteBoardTest.checkDeleteBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -200,13 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00034" summary="I added new method checkGetBoardsWIthInvalidAuth() to check whether the key and token provided are authorized to let the user enter the board.">
-      <created>1685654541051</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1685654541051</updated>
     </task>
     <task id="LOCAL-00035" summary="I added new method checkGetBoardWithAnotherUserCredentials() to check the situation when the user uses the key and token from another user. I run the code, but 2 tests failed. I'm checking the code.">
       <created>1685656211540</created>
@@ -544,12 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686589155640</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="I created new class DeleteCardValidationTest.">
+      <created>1686593006420</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1686593006420</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I checked all the code and modified the code. I run all the tests successfully." />
     <MESSAGE value="I rerun the test and it was successful." />
     <MESSAGE value="I created new class BoardNameValidationArgumentsProvider." />
     <MESSAGE value="I modified the code in the BoardNameValidationArgumentsProvider java class." />
@@ -574,6 +575,7 @@
     <MESSAGE value="I modified the code and checked that test runs successfully." />
     <MESSAGE value="I created new class DeleteBoardValidationTest." />
     <MESSAGE value="I added methods checkDeleteBoardWithInvalidId(), checkDeleteBoardWithInvalidAuth(), checkDeleteBoardWithAnotherUserCredentials(). I run all the tests successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I added methods checkDeleteBoardWithInvalidId(), checkDeleteBoardWithInvalidAuth(), checkDeleteBoardWithAnotherUserCredentials(). I run all the tests successfully." />
+    <MESSAGE value="I created new class DeleteCardValidationTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="I created new class DeleteCardValidationTest." />
   </component>
 </project>
