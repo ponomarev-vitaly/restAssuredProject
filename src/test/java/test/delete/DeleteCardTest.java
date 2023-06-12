@@ -13,7 +13,7 @@ import java.util.Map;
 public class DeleteCardTest extends BaseTest {
     private String createdCardId;
     @BeforeEach
-    public void CreateCard(){
+    public void createCard(){
         createdCardId = requestWithAuth()
                 .body(Map.of(
                         "name", "New Card",
