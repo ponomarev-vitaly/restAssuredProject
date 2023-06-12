@@ -17,6 +17,7 @@ import test.BaseTest;
 import java.util.Map;
 
 public class CreateCardValidationTest extends BaseTest {
+
     @ParameterizedTest
     @ArgumentsSource(CardBodyValidationArgumentsProvider.class)
     public void checkCreateCardWithInvalidName(CardBodyValidationArgumentsHolder validationArguments) {
@@ -24,9 +25,9 @@ public class CreateCardValidationTest extends BaseTest {
                 .body(validationArguments.getBodyParams())
                 .contentType(ContentType.JSON)
                 .post(CardsEndpoints.CREATE_CARD_URL);
-
         response
-                .then().statusCode(400);
+                .then()
+                .statusCode(400);
         Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
     }
 
@@ -36,27 +37,27 @@ public class CreateCardValidationTest extends BaseTest {
         Response response = requestWithoutAuth()
                 .queryParams(validationArguments.getAuthParams())
                 .body(Map.of(
-                        "name", "new card",
+                        "name", "New item",
                         "idList", UrlParamValues.EXISTING_LIST_ID
                 ))
                 .contentType(ContentType.JSON)
                 .post(CardsEndpoints.CREATE_CARD_URL);
-
-        response.then().statusCode(401);
+        response
+                .then()
+                .statusCode(401);
         Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
     }
 
     @Test
-    public void checkGetCardWithAnotherUserCredentials() {
+    public void checkCreateCardWithAnotherUserCredentials() {
         Response response = requestWithoutAuth()
                 .queryParams(UrlParamValues.ANOTHER_USER_AUTH_QUERY_PARAMS)
                 .body(Map.of(
-                        "name", "new card",
+                        "name", "New item",
                         "idList", UrlParamValues.EXISTING_LIST_ID
                 ))
                 .contentType(ContentType.JSON)
-                .get(CardsEndpoints.CREATE_CARD_URL);
-        System.out.println("This is the result of the 3rd test " + response.body().asString());
+                .post(CardsEndpoints.CREATE_CARD_URL);
         response
                 .then()
                 .statusCode(401);

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code and run the test again successfully.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="No changes were made, all tests run successfully.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/AuthValidationArgumentsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +67,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DeleteCardValidationTest">
-    <configuration name="CreateBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CreateCardValidationTest">
+    <configuration name="CreateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -78,7 +81,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;test.create.CreateBoardTest&quot;" />
+            <option value="&quot;test.create.CreateCardValidationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeleteCardValidationTest" />
-        <item itemvalue="Gradle.DeleteBoardValidationTest" />
+        <item itemvalue="Gradle.CreateCardValidationTest" />
         <item itemvalue="Gradle.DeleteCardTest" />
         <item itemvalue="Gradle.DeleteBoardTest" />
-        <item itemvalue="Gradle.CreateBoardTest" />
+        <item itemvalue="Gradle.DeleteCardValidationTest" />
+        <item itemvalue="Gradle.DeleteBoardValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -203,13 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00037" summary="I added new Java class GetCardsValidationTest to validate tests for GET card(s) methods.">
-      <created>1685657077499</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1685657077499</updated>
     </task>
     <task id="LOCAL-00038" summary="I added three methods checkGetCardWIthInvalidId(), checkGetCardWIthInvalidAuth(), checkGetCardWithAnotherUserCredentials() and requestWithAuth(). I ran the test, all worked well.">
       <created>1685658067400</created>
@@ -547,12 +543,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686599064571</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="No changes were made, all tests run successfully.">
+      <created>1686601203669</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1686601203669</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I modified the code in the BoardNameValidationArgumentsProvider java class." />
     <MESSAGE value="I added another modified solution for this test. I run the test successfully." />
     <MESSAGE value="I created new class CreateBoardValidationTest java class." />
     <MESSAGE value="I modified the code and run the test successfully." />
@@ -577,6 +579,7 @@
     <MESSAGE value="I created new class DeleteCardValidationTest." />
     <MESSAGE value="I added the test checkDeleteCardWithInvalidId() and run the test successfully." />
     <MESSAGE value="I modified the code and run the test again successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I modified the code and run the test again successfully." />
+    <MESSAGE value="No changes were made, all tests run successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="No changes were made, all tests run successfully." />
   </component>
 </project>

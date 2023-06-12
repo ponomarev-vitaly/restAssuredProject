@@ -38,6 +38,7 @@ public class DeleteBoardTest extends BaseTest {
      A PUT request is idempotent, meaning that multiple identical requests should have the same effect as a single request.
      Repeated PUT requests with the same data will not create multiple copies of the resource.
      In RESTful APIs, the URL typically includes the identifier of the resource being updated, such as /resource/{id}.
+
      POST Method:
 
      The POST method is used to submit data to the server to create a new resource.

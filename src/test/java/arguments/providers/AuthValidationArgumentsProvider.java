@@ -41,7 +41,7 @@ public class AuthValidationArgumentsProvider implements ArgumentsProvider {
                 ),
                 new AuthValidationArgumentsHolder(
                         Map.of("key", UrlParamValues.VALID_KEY_SECOND),
-                        "unauthorized permission requested"
+                        "unauthorized card permission requested"
                 ),
                 new AuthValidationArgumentsHolder(
                         Map.of("token", UrlParamValues.VALID_TOKEN_SECOND),
