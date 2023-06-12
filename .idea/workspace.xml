@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I created new class DeleteBoardTest.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateBoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/delete/DeleteBoardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +64,30 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.DeleteBoardTest">
+    <configuration name="CreateBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.create.CreateBoardTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="DeleteBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -87,6 +112,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="DeleteBoardTest.checkDeleteBoard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.delete.DeleteBoardTest.checkDeleteBoard&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="GetCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -101,54 +150,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;test.get.GetCardValidationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'test.update'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.update.*&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="UpdateBoardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.update.UpdateBoardValidationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,10 +187,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.DeleteBoardTest" />
+        <item itemvalue="Gradle.CreateBoardTest" />
+        <item itemvalue="Gradle.DeleteBoardTest.checkDeleteBoard" />
         <item itemvalue="Gradle.UpdateCardValidationTest" />
         <item itemvalue="Gradle.GetCardValidationTest" />
-        <item itemvalue="Gradle.Tests in 'test.update'" />
-        <item itemvalue="Gradle.UpdateBoardValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,13 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00028" summary="I created Json schema validation for the board. I added the code in the get_board.json. I run the tests successfully.">
-      <created>1685188322033</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1685188322033</updated>
     </task>
     <task id="LOCAL-00029" summary="No changes were made.">
       <created>1685393138228</created>
@@ -545,12 +539,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686467788469</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again.">
+      <created>1686468633023</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1686468633023</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I transformed the checkGetCardWithInvalidAuth() method into parameterized." />
     <MESSAGE value="I improved test framework structure." />
     <MESSAGE value="I refactored all the repeated elements, created new classes BoardsEndpoints, CardsEndpoints, UrlParamValues. I run all the tests successfully." />
     <MESSAGE value="I checked all the code again and run all the tests successfully." />
@@ -575,6 +575,7 @@
     <MESSAGE value="I added method checkGetBoardWithAnotherUserCredentials() in the test class. I run the test successfully." />
     <MESSAGE value="I added new class UpdateCardValidationTest and 2 Parameterized tests and 1 not in it: checkUpdateCardWIthInvalidId(), checkUpdateCardWIthInvalidAuth(), checkUpdateCardWithAnotherUserCredentials()." />
     <MESSAGE value="I created new class DeleteBoardTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created new class DeleteBoardTest." />
+    <MESSAGE value="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again." />
+    <option name="LAST_COMMIT_MESSAGE" value="I added 2 methods createBoard() and checkDeleteBoard(). I have to fix several issues in the code and run the DeleteBoardTest again." />
   </component>
 </project>

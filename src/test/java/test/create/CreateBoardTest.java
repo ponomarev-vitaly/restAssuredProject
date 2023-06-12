@@ -33,9 +33,6 @@ public class CreateBoardTest extends BaseTest {
                 .get(BoardsEndpoints.GET_ALL_BOARDS_URL)
                 .then()
                 .body("name", Matchers.hasItem(boardName));
-
-
-
     }
 
     @AfterEach
@@ -45,6 +42,5 @@ public class CreateBoardTest extends BaseTest {
                 .delete(BoardsEndpoints.DELETE_BOARD_URL)
                 .then()
                 .statusCode(200);
-
     }
 }
