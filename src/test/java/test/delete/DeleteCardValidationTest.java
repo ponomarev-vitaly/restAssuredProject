@@ -38,7 +38,4 @@ public class DeleteCardValidationTest extends BaseTest {
                 .then()
                 .body("id", Matchers.not(Matchers.hasItem(createdCardId)));
     }
-
-
-
 }
