@@ -16,6 +16,8 @@ import test.BaseTest;
 
 import java.util.Map;
 
+import static io.restassured.RestAssured.given;
+
 public class CreateCardValidationTest extends BaseTest {
 
     @ParameterizedTest
@@ -29,6 +31,13 @@ public class CreateCardValidationTest extends BaseTest {
                 .then()
                 .statusCode(400);
         Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
+        given()
+                .log()
+                .all()
+                .when()
+                .get()
+                .then()
+                .log().all().statusCode(200);
     }
 
     @ParameterizedTest
