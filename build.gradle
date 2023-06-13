@@ -12,12 +12,10 @@ repositories {
 
 dependencies {
     testImplementation(
-            'io.rest-assured:rest-assured:5.3.0',
+            'io.rest-assured:rest-assured:4.4.0',
             'org.junit.jupiter:junit-jupiter-engine:5.7.0',
             'io.rest-assured:json-schema-validator:5.3.0',
             'org.junit.jupiter:junit-jupiter-params:5.7.0'
-
-
     )
 }
 

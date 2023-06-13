@@ -50,6 +50,8 @@ public class CreateCardValidationTest extends BaseTest {
                 .post(CardsEndpoints.CREATE_CARD_URL);
         response
                 .then().statusCode(400);
+        System.out.println("This is response: " + response.body().asString());
+        System.out.println("This is an error: " + validationArguments.getErrorMessage());
         Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
     }
 

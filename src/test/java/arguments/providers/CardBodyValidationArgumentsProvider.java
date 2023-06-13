@@ -16,21 +16,20 @@ public class CardBodyValidationArgumentsProvider implements ArgumentsProvider{
         return Stream.of(
                 new CardBodyValidationArgumentsHolder(
                     Map.of(
-                            "name", "1234",
+                            "name", 12345,
                             "idList", UrlParamValues.EXISTING_LIST_ID
                     ),
                     "invalid value for name"
                 ),
                 new CardBodyValidationArgumentsHolder(
                         Map.of(
-                                "name", "New card"
-
+                                "name", "New Card"
                         ),
                         "invalid value for idList"
                 ),
                 new CardBodyValidationArgumentsHolder(
                         Map.of(
-                                "name", "New card",
+                                "name", "New Card",
                                 "idList", "invalid"
                         ),
                         "invalid value for idList"
