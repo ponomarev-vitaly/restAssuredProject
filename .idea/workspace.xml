@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code and rerun the tests. Need only one issue to fix. All tests run successfully except one.">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I fixed the code's mistake and run the code successfully.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arguments/providers/CardBodyValidationArgumentsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arguments/providers/CardBodyValidationArgumentsProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/consts/UrlParamValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/consts/UrlParamValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CreateCardValidationTest.checkCreateCardWithInvalidName">
+  <component name="RunManager" selected="Gradle.CreateCardValidationTest">
     <configuration name="CreateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,9 +185,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CreateCardValidationTest.checkCreateCardWithInvalidName" />
         <item itemvalue="Gradle.CreateCardValidationTest" />
         <item itemvalue="Gradle.CreateCardValidationTest.checkCreateCardWithInvalidAuth" />
+        <item itemvalue="Gradle.CreateCardValidationTest.checkCreateCardWithInvalidName" />
         <item itemvalue="Gradle.CreateCardValidationTest.checkCreateCardWithAnotherUserCredentials" />
         <item itemvalue="Gradle.RestAssuredProject [dependencies]" />
       </list>
@@ -207,13 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00040" summary="No changes were made, checked the tests again, tests run OK.">
-      <created>1685658427909</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1685658427909</updated>
     </task>
     <task id="LOCAL-00041" summary="I created new class BaseTest and added methods requestWithAuth() and RequestWithoutAuth() in it. I refactored the code in hte other classes: GetBoardsTest and GetBoardsValidationTest.">
       <created>1685736840278</created>
@@ -551,12 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686654659164</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="I fixed the code's mistake and run the code successfully.">
+      <created>1686690893735</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1686690893735</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I modified the code and run the test successfully." />
     <MESSAGE value="I refactored the code and run the POST Validation test successfully." />
     <MESSAGE value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
     <MESSAGE value="I modified the code, but still have some issues to fix." />
@@ -581,6 +574,7 @@
     <MESSAGE value="No changes were made, all tests run successfully." />
     <MESSAGE value="I modified the code in the CreateCardValidationTest and rerun the code again. I reduced the number of errors, almost all tests passed except one. I need to fix it." />
     <MESSAGE value="I modified the code and rerun the tests. Need only one issue to fix. All tests run successfully except one." />
-    <option name="LAST_COMMIT_MESSAGE" value="I modified the code and rerun the tests. Need only one issue to fix. All tests run successfully except one." />
+    <MESSAGE value="I fixed the code's mistake and run the code successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="I fixed the code's mistake and run the code successfully." />
   </component>
 </project>
