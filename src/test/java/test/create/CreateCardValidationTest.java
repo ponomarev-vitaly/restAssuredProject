@@ -16,28 +16,41 @@ import test.BaseTest;
 
 import java.util.Map;
 
-import static io.restassured.RestAssured.given;
-
 public class CreateCardValidationTest extends BaseTest {
+    // This is solution 1 of the CardBodyValidationArguentsProvider class. Not all tests are working correctly.
 
+//    @ParameterizedTest
+//    @ArgumentsSource(CardBodyValidationArgumentsProvider.class)
+//    public void checkCreateCardWithInvalidName(CardBodyValidationArgumentsHolder validationArguments) {
+//        Response response = requestWithAuth()
+//                .body(validationArguments.getBodyParams())
+//                .contentType(ContentType.JSON)
+//                .post(CardsEndpoints.CREATE_CARD_URL);
+//        response
+//                .then()
+//                .statusCode(400);
+//        Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
+//        given()
+//                .log()
+//                .all()
+//                .when()
+//                .get()
+//                .then()
+//                .log().all().statusCode(200);
+//    }
+
+    // This is solution 2 of the CardBodyValidationArguentsProvider class.
     @ParameterizedTest
     @ArgumentsSource(CardBodyValidationArgumentsProvider.class)
     public void checkCreateCardWithInvalidName(CardBodyValidationArgumentsHolder validationArguments) {
         Response response = requestWithAuth()
                 .body(validationArguments.getBodyParams())
                 .contentType(ContentType.JSON)
+                .log().all()
                 .post(CardsEndpoints.CREATE_CARD_URL);
         response
-                .then()
-                .statusCode(400);
+                .then().statusCode(400);
         Assertions.assertEquals(validationArguments.getErrorMessage(), response.body().asString());
-        given()
-                .log()
-                .all()
-                .when()
-                .get()
-                .then()
-                .log().all().statusCode(200);
     }
 
     @ParameterizedTest

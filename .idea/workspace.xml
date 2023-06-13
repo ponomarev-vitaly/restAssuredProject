@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code in the CreateCardValidationTest and rerun the code again. I reduced the number of errors, almost all tests passed except one. I need to fix it.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I modified the code and rerun the tests. Need only one issue to fix. All tests run successfully except one.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/create/CreateCardValidationTest.java" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CreateCardValidationTest">
+  <component name="RunManager" selected="Gradle.CreateCardValidationTest.checkCreateCardWithInvalidName">
     <configuration name="CreateCardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -90,6 +90,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="CreateCardValidationTest.checkCreateCardWithInvalidName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.create.CreateCardValidationTest.checkCreateCardWithInvalidName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="DeleteBoardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,30 +128,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;test.delete.DeleteBoardTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="DeleteBoardValidationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;test.delete.DeleteBoardValidationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CreateCardValidationTest.checkCreateCardWithInvalidName" />
         <item itemvalue="Gradle.CreateCardValidationTest" />
         <item itemvalue="Gradle.DeleteCardTest" />
         <item itemvalue="Gradle.DeleteBoardTest" />
         <item itemvalue="Gradle.DeleteCardValidationTest" />
-        <item itemvalue="Gradle.DeleteBoardValidationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,13 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684789385325</updated>
-    </task>
-    <task id="LOCAL-00039" summary="I changed modifiers in the requestWithAuth() methods from public to private.">
-      <created>1685658351995</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1685658351995</updated>
     </task>
     <task id="LOCAL-00040" summary="No changes were made, checked the tests again, tests run OK.">
       <created>1685658427909</created>
@@ -548,12 +541,18 @@
       <option name="project" value="LOCAL" />
       <updated>1686605803993</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="I modified the code and rerun the tests. Need only one issue to fix. All tests run successfully except one.">
+      <created>1686654659163</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1686654659164</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I created new class CreateBoardValidationTest java class." />
     <MESSAGE value="I modified the code and run the test successfully." />
     <MESSAGE value="I refactored the code and run the POST Validation test successfully." />
     <MESSAGE value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
@@ -578,6 +577,7 @@
     <MESSAGE value="I modified the code and run the test again successfully." />
     <MESSAGE value="No changes were made, all tests run successfully." />
     <MESSAGE value="I modified the code in the CreateCardValidationTest and rerun the code again. I reduced the number of errors, almost all tests passed except one. I need to fix it." />
-    <option name="LAST_COMMIT_MESSAGE" value="I modified the code in the CreateCardValidationTest and rerun the code again. I reduced the number of errors, almost all tests passed except one. I need to fix it." />
+    <MESSAGE value="I modified the code and rerun the tests. Need only one issue to fix. All tests run successfully except one." />
+    <option name="LAST_COMMIT_MESSAGE" value="I modified the code and rerun the tests. Need only one issue to fix. All tests run successfully except one." />
   </component>
 </project>
