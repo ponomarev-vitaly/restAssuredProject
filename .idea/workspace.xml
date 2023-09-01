@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I checked the code again and rerun tests successfully.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_20_26_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_20_26__Changes_.xml" beforeDir="false" />
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I checked the code again, updated dependencies and rerun tests successfully, but some NOT - have to fix them.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -560,12 +558,22 @@
       <option name="project" value="LOCAL" />
       <updated>1686691405909</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <option name="localTasksCounter" value="92" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I created new test method Card Validation, all tests are running successfully except the test checkGetCardWithAnotherUserCredentials(). I need to fix it." />
     <MESSAGE value="I modified the code, but still have some issues to fix." />
     <MESSAGE value="I created path flow test for Update Board Trello's endpoint. I run the test successfully." />
     <MESSAGE value="I created another test method for the updating of the card." />
@@ -590,6 +598,7 @@
     <MESSAGE value="I modified the code and rerun the tests. Need only one issue to fix. All tests run successfully except one." />
     <MESSAGE value="I fixed the code's mistake and run the code successfully." />
     <MESSAGE value="I checked the code again and rerun tests successfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="I checked the code again and rerun tests successfully." />
+    <MESSAGE value="I checked the code again, updated dependencies and rerun tests successfully, but some NOT - have to fix them." />
+    <option name="LAST_COMMIT_MESSAGE" value="I checked the code again, updated dependencies and rerun tests successfully, but some NOT - have to fix them." />
   </component>
 </project>
