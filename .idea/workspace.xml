@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="I checked the code again, updated dependencies and rerun tests successfully, but some NOT - have to fix them.">
+    <list default="true" id="ba36a011-8194-4b20-96ba-79106d1a1ec5" name="Changes" comment="project updated">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +46,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -67,7 +69,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
@@ -561,7 +563,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686691405909</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +579,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="I modified the code, but still have some issues to fix." />
     <MESSAGE value="I created path flow test for Update Board Trello's endpoint. I run the test successfully." />
     <MESSAGE value="I created another test method for the updating of the card." />
     <MESSAGE value="I modified the code in the test method for the updating of the card." />
@@ -602,6 +603,7 @@
     <MESSAGE value="I fixed the code's mistake and run the code successfully." />
     <MESSAGE value="I checked the code again and rerun tests successfully." />
     <MESSAGE value="I checked the code again, updated dependencies and rerun tests successfully, but some NOT - have to fix them." />
-    <option name="LAST_COMMIT_MESSAGE" value="I checked the code again, updated dependencies and rerun tests successfully, but some NOT - have to fix them." />
+    <MESSAGE value="project updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="project updated" />
   </component>
 </project>
